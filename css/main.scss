@@ -1,0 +1,722 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+$content-width: 800px;
+$main: #19CCAA;
+$font-style: 'Open Sans', sans-serif;
+$font-color: #262626;
+$link-color: #425469;
+$link-hover-color: $main;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #425469;
+$light: #E7EDF4;
+$header:  #1D1425;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+#main-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.py-10 {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+#logoSupContainer {
+  height: 55vh;
+  position: relative;
+}
+
+#logoSupContainer .wave2-container {
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+}
+
+#logoSupContainer .wave3-container {
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+}
+
+#logoContainer {
+  height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#logoSvg {
+  display: block;
+  margin: 0 auto;
+  height: 65%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.separator {
+  height: 1px;
+  display: block;
+  background-color: #E0E0E0;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-size: 140%;
+}
+
+.h1em,
+.section .h1em {
+  height: 1em;
+}
+
+.card-footer {
+  padding: 0.75em 0;
+}
+
+
+/* NAV */
+.nav-tabs {
+  padding: 0;
+  margin: 0 auto;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.nav-container {
+  position: relative;
+}
+
+.nav-container .wave-container  {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+.nav-container .wave2-container {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+.nav-container .wave3-container  {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  display: block;
+}
+
+.nav-link {
+  transition: all 0.5s;
+}
+
+.nav-link.active[href="#panelWork"] {
+  color: #1CA8F0;
+}
+
+.nav-link.active[href="#panelTech"] {
+  color: #16BCDE;
+}
+
+.nav-link.active[href="#panelProjects"] {
+  color: #10D5C8;
+}
+
+.nav-link.active[href="#panelTrainings"] {
+  color: #09EFB2;
+}
+
+
+.wave-container {
+  background-image: url('../img/wave2.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: left top;
+}
+
+.wave2-container {
+  background-image: url('../img/wave.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.wave3-container {
+  background-image: url('../img/wavesquare.png');
+  background-size: auto 100%;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+.nav-container .nav-link {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+/*
+.nav-link[href="#panelWork"] {
+    padding-top: 6.5em;
+    padding-bottom: 1.5em;
+}
+
+.nav-link[href="#panelTech"] {
+    padding-top: 4.75em;
+    padding-bottom: 3.25em;
+}
+
+.nav-link[href="#panelProjects"] {
+    padding-top: 3.5em;
+    padding-bottom: 4.5em;
+}
+
+.nav-link[href="#panelTrainings"] {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}*/
+
+/* WORK */
+section.sectionWork.col-12 {
+  padding: 0;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-indicators {
+  top: -2em;
+}
+
+div.cardWorkProject {
+  padding: 0;
+  padding-bottom: 2em;
+}
+
+.cardWorkProject .view img {
+  height: 10em;
+}
+
+.col-12.step .col-1 .avatar {
+  z-index: 3;
+  position: absolute;
+}
+
+/* WORK CAROUSEL */
+.carousel {
+  width: 100%;
+}
+
+.carousel-item {
+  margin: 0;
+}
+
+.carousel .carousel-indicators {
+  height: 2em;
+}
+
+.carousel .carousel-indicators li {
+  transition: all 0.5s;
+}
+
+.carousel .carousel-indicators li:not(.active) {
+  background-color: #DDDDDD;
+}
+
+.carousel .cardWorkProject .card-text {
+  min-height: 3em;
+}
+
+.carousel-multi-item {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:1200px) {
+  .cardWorkProject .card-body {
+    padding: 0.12em;
+  }
+}
+
+/* TRAININGS */
+.trainingsDivDesc {
+  min-height: 200px;
+  padding: 1em;
+}
+
+
+/* DARK FORM */
+.form-dark .font-small {
+  font-size: 0.8rem;
+}
+
+.form-dark [type="radio"]+label,
+.form-dark [type="checkbox"]+label {
+  font-size: 0.8rem;
+}
+
+.form-dark [type="checkbox"]+label:before {
+  top: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.form-dark .md-form label {
+  color: #fff;
+}
+
+.form-dark input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+.form-dark input[type=text]:focus:not([readonly])+label {
+  color: #fff;
+}
+
+.form-dark input[type=password]:focus:not([readonly]) {
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+.form-dark input[type=password]:focus:not([readonly])+label {
+  color: #fff;
+}
+
+.form-dark input[type="checkbox"]+label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  z-index: 0;
+  border: 1.5px solid #fff;
+  border-radius: 1px;
+  margin-top: 2px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.form-dark input[type="checkbox"]:checked+label:before {
+  top: -4px;
+  left: -3px;
+  width: 12px;
+  height: 22px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent #00c851 #00c851 transparent;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  backface-visibility: hidden;
+}
+
+
+/* INPUTS */
+input[type=date]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=search-md]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #FFFFFF;
+  -webkit-box-shadow: 0 1px 0 0 #FFFFFF;
+  box-shadow: 0 1px 0 0 #FFFFFF;
+}
+
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=search-md]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+textarea.md-textarea:focus:not([readonly])+label {
+  color: #FFFFFF;
+}
+
+.md-form .prefix.active {
+  color: #FFFFFF;
+}
+
+/* STEPPERS */
+.steppers {
+  position: relative;
+}
+
+.divider-step-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 2;
+}
+
+.divider-step {
+  position: relative;
+  left: 15px;
+  display: block;
+  width: 1px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #DDDDDD;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 992px) {
+  .center-on-small-only {
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .col-12 {
+    padding: 0;
+  }
+  .row {
+    margin: 0;
+  }
+  .nav-tabs {
+    margin: 0;
+  }
+}
+
+.carousel-multi-item .carousel-indicators .active {
+  background-color: #AAAAAA;
+}
+
+.blackColor,
+a.blackColor,
+a.blackColor:link,
+a.blackColor:focus,
+a.blackColor:active,
+a.blackColor:hover {
+  color: #000000;
+}
+
+.blackBGColor {
+  background-color: #000000;
+}
+
+.whiteColor,
+a.whiteColor,
+a.whiteColor:link,
+a.whiteColor:focus,
+a.whiteColor:active,
+a.whiteColor:hover {
+  color: #FFFFFF;
+}
+
+.whiteBGColor {
+  background-color: #FFFFFF;
+}
+
+.intitekColor,
+a.intitekColor,
+a.intitekColor:link,
+a.intitekColor:focus,
+a.intitekColor:active,
+a.intitekColor:hover {
+  color: #EA561E;
+}
+
+.intitekBorder,
+.card.intitekBorder {
+  border-left: 2em solid #EA561E;
+}
+
+.intitekBGColor {
+  background-color: #EA561E;
+}
+
+.vdsColor,
+a.vdsColor,
+a.vdsColor:link,
+a.vdsColor:focus,
+a.vdsColor:active,
+a.vdsColor:hover {
+  color: #FFD15D;
+}
+
+.vdsBorder,
+.card.vdsBorder {
+  border-left: 2em solid #FFD15D;
+}
+
+.vdsBGColor,
+.carousel-multi-item .controls-top .btn-floating.vdsBGColor {
+  background-color: #FFD15D;
+}
+
+.iunexColor,
+a.iunexColor,
+a.iunexColor:link,
+a.iunexColor:focus,
+a.iunexColor:active,
+a.iunexColor:hover {
+  color: #90A9A9;
+}
+
+.iunexBGColor,
+.carousel-multi-item .controls-top .btn-floating.iunexBGColor {
+  background-color: #90A9A9;
+}
+
+.brgColor,
+a.brgColor,
+a.brgColor:link,
+a.brgColor:focus,
+a.brgColor:active,
+a.brgColor:hover {
+  color: #DD7520;
+}
+
+.brgBGColor {
+  background-color: #DD7520;
+}
+
+.ideoSanteColor,
+a.ideoSanteColor,
+a.ideoSanteColor:link,
+a.ideoSanteColor:focus,
+a.ideoSanteColor:active,
+a.ideoSanteColor:hover {
+  color: #259972;
+}
+
+.ideoSanteBGColor,
+.card-footer.ideoSanteBGColor {
+  background-color: #259972;
+}
+
+.disabledColor,
+a.disabledColor,
+a.disabledColor:link,
+a.disabledColor:focus,
+a.disabledColor:active,
+a.disabledColor:hover {
+  color: #AAAAAA;
+}
+
+.disabledBGColor,
+li.disabledBGColor {
+  background-color: #AAAAAA;
+}
+
+.nbaColor,
+a.nbaColor,
+a.nbaColor:link,
+a.nbaColor:focus,
+a.nbaColor:active,
+a.nbaColor:hover {
+  color: #00B5AC;
+}
+
+.nbaBGColor {
+  background-color: #00B5AC;
+}
+
+.factorioColor,
+a.factorioColor,
+a.factorioColor:link,
+a.factorioColor:focus,
+a.factorioColor:active,
+a.factorioColor:hover {
+  color: #304FFE;
+}
+
+.factorioBGColor {
+  background-color: #304FFE;
+}
+
+.cvbrokerColor,
+a.cvbrokerColor,
+a.cvbrokerColor:link,
+a.cvbrokerColor:focus,
+a.cvbrokerColor:active,
+a.cvbrokerColor:hover {
+  color: #4285F4;
+}
+
+.cvbrokerBGColor {
+  background-color: #4285F4;
+}
+
+.mlcColor,
+a.mlcColor,
+a.mlcColor:link,
+a.mlcColor:focus,
+a.mlcColor:active,
+a.mlcColor:hover {
+  color: #E08E44;
+}
+
+.mlcBGColor {
+  background-color: #E08E44;
+}
+
+.rateJobColor,
+a.rateJobColor,
+a.rateJobColor:link,
+a.rateJobColor:focus,
+a.rateJobColor:active,
+a.rateJobColor:hover {
+  color: #4A8AF4;
+}
+
+.rateJobBGColor {
+  background-color: #4A8AF4;
+}
+
+.crazytipsColor,
+a.crazytipsColor,
+a.crazytipsColor:link,
+a.crazytipsColor:focus,
+a.crazytipsColor:active,
+a.crazytipsColor:hover {
+  color: #FF7443;
+}
+
+.crazytipsBGColor {
+  background-color: #FF7443;
+}
+
+.polyencoColor,
+a.polyencoColor,
+a.polyencoColor:link,
+a.polyencoColor:focus,
+a.polyencoColor:active,
+a.polyencoColor:hover {
+  color: #3598DC;
+}
+
+.polyencoBGColor {
+  background-color: #3598DC;
+}
+
+.citylityColor,
+a.citylityColor,
+a.citylityColor:link,
+a.citylityColor:focus,
+a.citylityColor:active,
+a.citylityColor:hover {
+  color: #3DBDD8;
+}
+
+.citylityBGColor {
+  background-color: #3DBDD8;
+}
+
+.cnhColor,
+a.cnhColor,
+a.cnhColor:link,
+a.cnhColor:focus,
+a.cnhColor:active,
+a.cnhColor:hover {
+  color: #A32428;
+}
+
+.cnhBGColor {
+  background-color: #A32428;
+}
+
+.ainColor,
+a.ainColor,
+a.ainColor:link,
+a.ainColor:focus,
+a.ainColor:active,
+a.ainColor:hover {
+  color: #018BC9;
+}
+
+.ainBGColor {
+  background-color: #018BC9;
+}
+
+.archivesColor,
+a.archivesColor,
+a.archivesColor:link,
+a.archivesColor:focus,
+a.archivesColor:active,
+a.archivesColor:hover {
+  color: #11423C;
+}
+
+.archivesBGColor {
+  background-color: #11423C;
+}
+
+
+
+
+
+
+
+
+// search
+.search-container{
+  td{
+    padding: 4px 8px !important;
+  }
+}
+
+
+// Work
+.westernBeefColor,
+a.westernBeefColor,
+a.westernBeefColor:link,
+a.westernBeefColor:focus,
+a.westernBeefColor:active,
+a.westernBeefColor:hover {
+  color: #F7931E;
+}
+
+.westernBeefBorder,
+.card.westernBeefBorder {
+  border-left: 2em solid #F7931E;
+}
+
+.westernBeefBGColor {
+  background-color: #F7931E;
+}

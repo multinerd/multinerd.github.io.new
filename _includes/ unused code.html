@@ -1,0 +1,14 @@
+
+<!--Content-->
+<main id="main-content">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="tab-content">
+				{% for p in site.pages %} {% if p.title %}
+				{{ p.content }}
+				{% endif %} {% endfor %}
+			</div>
+		</div>
+	</div>
+</main>
+<!--/Content-->

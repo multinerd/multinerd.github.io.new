@@ -1,0 +1,29 @@
+- name: Western Beef 1
+  codename: westernBeef
+  duration: Since October, 2015
+  website: http://www.westernbeef.com/
+  location: Ridgewood, NY
+  building: Main Office
+  jobdescription: Software Developer
+  logo: /img/work/westernbeef.jpg
+  color: F7931E
+
+- name: Western Beef 2
+  codename: westernBeef
+  duration: Since October, 2015
+  website: http://www.westernbeef.com/
+  location: Ridgewood, NY
+  building: Main Office
+  jobdescription: Software Developer
+  logo: /img/work/westernbeef.jpg
+  color: F7931E
+
+- name: Western Beef 3
+  codename: westernBeef
+  duration: Since October, 2015
+  website: http://www.westernbeef.com/
+  location: Ridgewood, NY
+  building: Main Office
+  jobdescription: Software Developer
+  logo: /img/work/westernbeef.jpg
+  color: F7931E

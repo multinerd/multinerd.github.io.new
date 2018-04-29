@@ -1,0 +1,264 @@
+.carousel-multi-item .carousel-indicators .active {
+    background-color: #AAAAAA;
+}
+
+.blackColor,
+a.blackColor,
+a.blackColor:link,
+a.blackColor:focus,
+a.blackColor:active,
+a.blackColor:hover {
+    color: #000000;
+}
+
+.blackBGColor {
+    background-color: #000000;
+}
+
+.whiteColor,
+a.whiteColor,
+a.whiteColor:link,
+a.whiteColor:focus,
+a.whiteColor:active,
+a.whiteColor:hover {
+    color: #FFFFFF;
+}
+
+.whiteBGColor {
+    background-color: #FFFFFF;
+}
+
+.intitekColor,
+a.intitekColor,
+a.intitekColor:link,
+a.intitekColor:focus,
+a.intitekColor:active,
+a.intitekColor:hover {
+    color: #EA561E;
+}
+
+.intitekBorder,
+.card.intitekBorder {
+    border-left: 2em solid #EA561E;
+}
+
+.intitekBGColor {
+    background-color: #EA561E;
+}
+
+.vdsColor,
+a.vdsColor,
+a.vdsColor:link,
+a.vdsColor:focus,
+a.vdsColor:active,
+a.vdsColor:hover {
+    color: #FFD15D;
+}
+
+.vdsBorder,
+.card.vdsBorder {
+    border-left: 2em solid #FFD15D;
+}
+
+.vdsBGColor,
+.carousel-multi-item .controls-top .btn-floating.vdsBGColor {
+    background-color: #FFD15D;
+}
+
+.iunexColor,
+a.iunexColor,
+a.iunexColor:link,
+a.iunexColor:focus,
+a.iunexColor:active,
+a.iunexColor:hover {
+    color: #90A9A9;
+}
+
+.iunexBGColor,
+.carousel-multi-item .controls-top .btn-floating.iunexBGColor {
+    background-color: #90A9A9;
+}
+
+.brgColor,
+a.brgColor,
+a.brgColor:link,
+a.brgColor:focus,
+a.brgColor:active,
+a.brgColor:hover {
+    color: #DD7520;
+}
+
+.brgBGColor {
+    background-color: #DD7520;
+}
+
+.ideoSanteColor,
+a.ideoSanteColor,
+a.ideoSanteColor:link,
+a.ideoSanteColor:focus,
+a.ideoSanteColor:active,
+a.ideoSanteColor:hover {
+    color: #259972;
+}
+
+.ideoSanteBGColor,
+.card-footer.ideoSanteBGColor {
+    background-color: #259972;
+}
+
+.disabledColor,
+a.disabledColor,
+a.disabledColor:link,
+a.disabledColor:focus,
+a.disabledColor:active,
+a.disabledColor:hover {
+    color: #AAAAAA;
+}
+
+.disabledBGColor,
+li.disabledBGColor {
+    background-color: #AAAAAA;
+}
+
+.nbaColor,
+a.nbaColor,
+a.nbaColor:link,
+a.nbaColor:focus,
+a.nbaColor:active,
+a.nbaColor:hover {
+    color: #00B5AC;
+}
+
+.nbaBGColor {
+    background-color: #00B5AC;
+}
+
+.factorioColor,
+a.factorioColor,
+a.factorioColor:link,
+a.factorioColor:focus,
+a.factorioColor:active,
+a.factorioColor:hover {
+    color: #304FFE;
+}
+
+.factorioBGColor {
+    background-color: #304FFE;
+}
+
+.cvbrokerColor,
+a.cvbrokerColor,
+a.cvbrokerColor:link,
+a.cvbrokerColor:focus,
+a.cvbrokerColor:active,
+a.cvbrokerColor:hover {
+    color: #4285F4;
+}
+
+.cvbrokerBGColor {
+    background-color: #4285F4;
+}
+
+.mlcColor,
+a.mlcColor,
+a.mlcColor:link,
+a.mlcColor:focus,
+a.mlcColor:active,
+a.mlcColor:hover {
+    color: #E08E44;
+}
+
+.mlcBGColor {
+    background-color: #E08E44;
+}
+
+.rateJobColor,
+a.rateJobColor,
+a.rateJobColor:link,
+a.rateJobColor:focus,
+a.rateJobColor:active,
+a.rateJobColor:hover {
+    color: #4A8AF4;
+}
+
+.rateJobBGColor {
+    background-color: #4A8AF4;
+}
+
+.crazytipsColor,
+a.crazytipsColor,
+a.crazytipsColor:link,
+a.crazytipsColor:focus,
+a.crazytipsColor:active,
+a.crazytipsColor:hover {
+    color: #FF7443;
+}
+
+.crazytipsBGColor {
+    background-color: #FF7443;
+}
+
+.polyencoColor,
+a.polyencoColor,
+a.polyencoColor:link,
+a.polyencoColor:focus,
+a.polyencoColor:active,
+a.polyencoColor:hover {
+    color: #3598DC;
+}
+
+.polyencoBGColor {
+    background-color: #3598DC;
+}
+
+.citylityColor,
+a.citylityColor,
+a.citylityColor:link,
+a.citylityColor:focus,
+a.citylityColor:active,
+a.citylityColor:hover {
+    color: #3DBDD8;
+}
+
+.citylityBGColor {
+    background-color: #3DBDD8;
+}
+
+.cnhColor,
+a.cnhColor,
+a.cnhColor:link,
+a.cnhColor:focus,
+a.cnhColor:active,
+a.cnhColor:hover {
+    color: #A32428;
+}
+
+.cnhBGColor {
+    background-color: #A32428;
+}
+
+.ainColor,
+a.ainColor,
+a.ainColor:link,
+a.ainColor:focus,
+a.ainColor:active,
+a.ainColor:hover {
+    color: #018BC9;
+}
+
+.ainBGColor {
+    background-color: #018BC9;
+}
+
+.archivesColor,
+a.archivesColor,
+a.archivesColor:link,
+a.archivesColor:focus,
+a.archivesColor:active,
+a.archivesColor:hover {
+    color: #11423C;
+}
+
+.archivesBGColor {
+    background-color: #11423C;
+}

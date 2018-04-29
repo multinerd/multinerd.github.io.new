@@ -1,0 +1,36 @@
+# Site Settings
+lang: en
+title: Multinerd
+author: multinerd
+email: m.hedaitulla@live.com
+description: Bertrand Choubert, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.
+keywords: nm, conceptor, developer, bertrand, choubert, website, web, front, front-end, back, back-end, full-stack, engineer, cs, it, computer, science, responsive, enthusiast, passionate
+logo: /img/icons/favicon-32x32.png
+#permalink: /:categories/:title/
+url: "http://multinerd.github.io"
+baseurl: "/site"
+
+
+# Build Settings
+sass:
+  style: compressed
+  sass_dir: css
+include: ['_pages']
+
+
+# Social Media
+github_username:  multinerd
+
+
+# dependencies
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+  input: GFM
+
+markdown: kramdown
+
+# permalink
+permalink: pretty
+#permalink: /:baseurl/:title/
