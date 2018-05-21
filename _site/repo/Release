@@ -1,0 +1,9 @@
+Origin: Multinerd's Repo
+Label: Multinerd's Repo
+Suite: stable
+Version: 1.0
+Codename: Multinerd
+Architecture: iphoneos-arm
+Components: main
+Description: Multinerd's Repo
+Icon: file://Cydiaicon.png

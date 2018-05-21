@@ -1,0 +1,45 @@
+{
+	"name": "Developer Repositories",
+	"package": "io.multinerd.devrepos",
+	"author": "Multinerd",
+	"version": "0.4",
+	"description": "Installs a bunch of developers repos. (see changelog)",
+	"changelog": {
+		"0.1": [
+			"Initial Release",
+			"Steve Rolfe - http://apt.steverolfe.com/",
+			"Charlie Hewitt - http://chewitt.me/repo/",
+			"Karen Tsai - http://cydia.angelxwind.net/",
+			"Jerry En - http://cydia.jerryen.com/",
+			"Reed Weichler - http://cydia.r333d.com/",
+			"Devbug - http://devbug.me/apt/",
+			"Ivano Bilenchi - http://exile90software.com/cydia/beta/",
+			"Delta - http://getdelta.co/",
+			"F.lux - https://justgetflux.com/cydia/",
+			"Kodi (xbmc) - http://mirrors.kodi.tv/apt/ios/",
+			"Dustin L. Howett - http://nix.howett.net/theos/",
+			"Ryan Petrich - http://rpetri.ch/repo/",
+			"Alex Zielenski - http://repo.alexzielenski.com/",
+			"BD452 - http://repo.bd452.com/",
+			"46&2 - http://repo.fortysixandtwo.com/",
+			"pNre - http://repo.pnre.co/",
+			"Thireus - http://repo.thireus.com/",
+			"TM3 Dev - http://repo.tm3dev.com/"
+		],
+		"0.2": [
+			"Added Coolstars Public Repo - https://coolstar.org/publicrepo/"
+		],
+		"0.3": [
+			"Added http://arcetera.github.io/",
+			"Added http://repo.ioscreatix.com/",
+			"Removed http://devbug.me/apt"
+		],
+		"0.4": [
+			"Added http://www.williamlcobb.com/repo/",
+			"Added http://cokepokes.github.io/",
+			"Added http://beta.unlimapps.com/"
+		]
+	},
+	"screenshots": {},
+	"links": {}
+}

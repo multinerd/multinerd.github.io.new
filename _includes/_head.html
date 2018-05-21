@@ -1,0 +1,44 @@
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+		<meta charset="utf-8">
+		<meta name="robots" content="index,nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+		<meta name="keywords" content="{{ site.keywords | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+		<meta name="msapplication-TileColor" content="#603cba">
+		<meta name="msapplication-TileImage" content="/resources/img/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/resources/img/icons/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+
+		<link rel="apple-touch-icon" href="/resources/img/icons/apple-touch-icon.png" sizes="180x180">
+		<link rel="icon" href="/resources/img/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+		<link rel="icon" href="/resources/img/icons/favicon-194x194.png" type="image/png" sizes="194x194">
+		<link rel="icon" href="/resources/img/icons/android-chrome-192x192.png" type="image/png" sizes="192x192">
+		<link rel="icon" href="/resources/img/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+		<link rel="icon" href="/resources/img/icons/favicon.ico" type="image/x-icon">
+
+		<link rel="manifest" href="/resources/img/icons/site.webmanifest">
+		<link rel="mask-icon" href="/resources/img/icons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/resources/img/icons/favicon.ico">
+
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="{{ site.title | escape }}" />
+
+		<!--fonts-->
+		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600" type="text/css">-->
+		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,300" type="text/css">-->
+		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" type="text/css">-->
+
+		<!--icons-->
+		<link rel="stylesheet" href="/resources/lib/fontawesome-pro-5.0.10/css/fontawesome-all.min.css">
+		<link rel="stylesheet" href="/resources/lib/iconsfordevs/css/iconsfordevs.min.css">
+
+		<!--styles-->
+		<link rel="stylesheet" href="/resources/lib/bootstrap-4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/resources/lib/mdbootstrap-4.5.2/css/mdb.min.css">
+		<link rel="stylesheet" href="/resources/css/main.css ">
+	</head>

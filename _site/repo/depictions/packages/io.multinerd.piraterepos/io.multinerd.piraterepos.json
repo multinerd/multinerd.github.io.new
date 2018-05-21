@@ -1,0 +1,24 @@
+{
+	"name": "Pirate Repositories",
+	"package": "io.multinerd.piraterepos",
+	"author": "Multinerd",
+	"version": "0.2",
+	"description": "Installs a bunch of pirate repos.",
+	"changelog": {
+		"0.1": [
+			"Initial Release",
+			"PopcornTime - http://cydia.popcorn-time.se/",
+			"LocalIAPStore - http://system.in-appstore.com/repo/",
+			"Appcake - http://cydia.iphonecake.com/",
+			"HackYouriPhone - http://repo.hackyouriphone.org/",
+			"BiteYourApple - http://repo.biteyourapple.net/",
+			"InsanelyI - http://repo.insanelyi.com/"
+		],
+		"0.2": [
+			"Added https://cydia.appaddict.org/",
+			"Removed http://cydia.popcorn-time.se/"
+		]
+	},
+	"screenshots": {},
+	"links": {}
+}

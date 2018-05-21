@@ -1,0 +1,29 @@
+Package: io.multinerd.devrepos
+Name: Developer Repositories
+Architecture: all
+Description: Installs a bunch of Developers repos.
+Version: 0.4-1
+Section: MNRepos
+Author: Multinerd <m.hedaitulla@live.com>
+Maintainer: Multinerd <m.hedaitulla@live.com>
+MD5sum: d4bad5e1e7b5b59575d9564c9f7bd94d
+SHA1: 87ed1d9c01f58c4098a7da5b2d98eaf50f0d50a6
+SHA256: b6eaaab68b838124f121994ef191bc5109941a068d72e9f579300d96309468d6
+Size: 1020
+Filename: debs/io.multinerd.devrepos.deb
+Depiction: http://multinerd.github.io/repo/depictions/?p=io.multinerd.devrepos
+
+Package: io.multinerd.piraterepos
+Name: Pirate Repositories
+Architecture: all
+Description: Installs a bunch of pirate repos.
+Version: 0.2-1
+Section: MNRepos
+Author: Multinerd <m.hedaitulla@live.com>
+Maintainer: Multinerd <m.hedaitulla@live.com>
+MD5sum: d30d7762899c083db528d0c39a47dbec
+SHA1: 22d535393aa90e03b7b2102dc4f871d75afdfd3b
+SHA256: d0838252c0be52a7764e05e5c76490f21950b843748fff239e7997762368f9e4
+Size: 830
+Filename: debs/io.multinerd.piraterepos.deb
+Depiction: http://multinerd.github.io/repo/depictions/?p=io.multinerd.piraterepos

@@ -1,0 +1,8 @@
+Package: io.multinerd.piraterepos
+Name: Pirate Repositories
+Architecture: all
+Description: Installs a bunch of pirate repos.
+Version: 0.2-1
+Section: MNRepos
+Author: Multinerd <m.hedaitulla@live.com>
+Maintainer: Multinerd <m.hedaitulla@live.com>

@@ -1,0 +1,7 @@
+#Contact /u/multinerd_dev on reddit if you’d like to add a repo
+deb http://cydia.iphonecake.com/ ./
+deb http://repo.biteyourapple.net/ ./
+deb http://repo.hackyouriphone.org/ ./
+deb http://repo.insanelyi.com/ ./
+deb http://system.in-appstore.com/repo/ ./
+deb https://cydia.appaddict.org/ ./

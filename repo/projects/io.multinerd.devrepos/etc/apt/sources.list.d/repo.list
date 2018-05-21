@@ -1,0 +1,24 @@
+#Contact /u/multinerd_dev on reddit if you’d like to add a repo
+#deb http://devbug.me/apt/ ./
+deb http://apt.steverolfe.com/ ./
+deb http://arcetera.github.io/ ./
+deb http://beta.unlimapps.com/ ./
+deb http://chewitt.me/repo/ ./
+deb http://cokepokes.github.io/ ./
+deb http://coolstar.org/publicrepo/ ./
+deb http://cydia.angelxwind.net/ ./
+deb http://cydia.jerryen.com/ ./
+deb http://exile90software.com/cydia/beta/ ./
+deb http://getdelta.co/ ./
+deb http://mirrors.kodi.tv/apt/ios/ ./
+deb http://nix.howett.net/theos/ ./
+deb http://repo.alexzielenski.com/ ./
+deb http://repo.bd452.com/ ./
+deb http://repo.fortysixandtwo.com/ ./
+deb http://repo.ioscreatix.com/ ./
+deb http://repo.pnre.co/ ./
+deb http://repo.thireus.com/ ./
+deb http://repo.tm3dev.com/ ./
+deb http://rpetri.ch/repo/ ./
+deb http://www.williamlcobb.com/repo/ ./
+deb https://justgetflux.com/cydia/ ./

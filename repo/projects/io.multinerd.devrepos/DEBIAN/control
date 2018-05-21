@@ -1,0 +1,8 @@
+Package: io.multinerd.devrepos
+Name: Developer Repositories
+Architecture: all
+Description: Installs a bunch of Developers repos.
+Version: 0.4-1
+Section: MNRepos
+Author: Multinerd <m.hedaitulla@live.com>
+Maintainer: Multinerd <m.hedaitulla@live.com>

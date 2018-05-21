@@ -1,29 +1,19 @@
-- name: Western Beef 1
-  codename: westernBeef
-  duration: Since October, 2015
-  website: http://www.westernbeef.com/
-  location: Ridgewood, NY
-  building: Main Office
-  jobdescription: Software Developer
-  logo: /img/work/westernbeef.jpg
-  color: F7931E
+- jobdescription: Aircraft Mechanic
+  company: U.S Air Force
+  years: March 2011 - December 2014
+  location: Little Rock AFB, AR
+  website: http://www.af.mil/
+  logo: /resources/img/work/usaf.jpg
+  cssBGColor: usaf-blue darken-3
+  cssTextColor: usaf-blue-text darken-3
+  cssIcon: fa-wrench
 
-- name: Western Beef 2
-  codename: westernBeef
-  duration: Since October, 2015
-  website: http://www.westernbeef.com/
+- jobdescription: Software Developer
+  company: Western Beef
+  years: October 2015 - Present
   location: Ridgewood, NY
-  building: Main Office
-  jobdescription: Software Developer
-  logo: /img/work/westernbeef.jpg
-  color: F7931E
-
-- name: Western Beef 3
-  codename: westernBeef
-  duration: Since October, 2015
   website: http://www.westernbeef.com/
-  location: Ridgewood, NY
-  building: Main Office
-  jobdescription: Software Developer
-  logo: /img/work/westernbeef.jpg
-  color: F7931E
+  logo: /resources/img/work/westernbeef.jpg
+  cssBGColor: orange darken-3
+  cssTextColor: orange-text darken-3
+  cssIcon: fa-code

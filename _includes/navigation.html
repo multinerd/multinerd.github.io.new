@@ -1,0 +1,52 @@
+			<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top scrolling-navbar">
+
+				<!--navbarBrand -->
+				<a class="navbar-brand" href="/">
+					<img src="/resources/img/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
+				</a>
+
+				<!--collapseButton -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!--collapsibleContent -->
+				<div class="collapse navbar-collapse" id="navbarToggle">
+
+					<!-- links -->
+					<ul class="navbar-nav mr-auto"> {% for nav in site.data.navigation %} {% if nav.items %}
+
+					    <!-- menu: {{ nav.title }} -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" id="navbar{{ nav.title | replace: ' ', '' }}MenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if nav.icon %}
+								<i class="fas {{nav.icon}}" aria-hidden="true"></i> {% endif %}{{ nav.title }} </a>
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbar{{ nav.title | replace: ' ', '' }}MenuLink"> {% for item in nav.items %}
+							                                                                                                                <!-- menu: {{ item.title }} -->
+								<a class="dropdown-item" href="{{ item.link }}"> {% if item.icon %}
+									<i class="fas {{item.icon}}" aria-hidden="true"></i> {% endif %} {{ item.title }} {% if item.url == page.url %}
+									<span class="sr-only">(current)</span> {% endif %} </a> {% endfor %}
+							</div>
+						</li> {% else %}
+
+					    <!-- link: {{ nav.title }} -->
+						<li class="nav-item{% if nav.link == page.url %} active{% endif %}">
+							<a class="nav-link" href="{{ nav.link }}"> {% if nav.icon %}
+								<i class="fas {{nav.icon}}" aria-hidden="true"></i> {% endif %}{{ nav.title }} {% if nav.url == page.url %}
+								<span class="sr-only">(current)</span> {% endif %} </a>
+						</li>{% endif %} {% endfor %}
+					</ul>
+
+					<!-- search -->
+					<form class="form-inline">
+						<div class="md-form my-0">
+							<i class="fas fa-search"></i>
+							<input class="form-control mr-sm-2" placeholder="Search" type="text" aria-label="Search" onclick="search(this)">
+							<!--<div class="search-results"></div>-->
+						</div>
+						<script> function search(clicked) {alert('Not Yet Implemented...'+ clicked.toString());} // var q = clicked.value; window.location.href = "/search/?q=" + q;
+						</script>
+					</form>
+
+				</div>
+
+			</nav>

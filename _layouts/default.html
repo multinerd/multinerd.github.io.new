@@ -1,37 +1,30 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-	<!--Head-->
-{% include head.html %}
-    <!--/Head-->
+	<!--head-->
+{% include _head.html %}
+	<!--head-->
 
+	<!--body-->
+	<body id="topOfPage" class="indigo-skin">
 
-    <body id="main-content" class="black-skin">
+		<!--content-->
+{{ content }}
+		<!--content-->
 
-        <!--Navigation -->
-{% include nav.html %}
-        <!--/Navigation -->
+		<!--scrollToTop-->
+{% include utilities/scrollToTop.html %}
+		<!--/scrollToTop-->
 
-        <main>
-	        <!--<div class="container-fluid ">-->
-
-	{{ content }}
-	        <!--</div>-->
-
-        </main>
-
-        <!--Footer-->
+		<!--footer-->
 {% include footer.html %}
-        <!--/Footer-->
+		<!--/footer-->
 
-        <!--Scroll To Top-->
-{% include scrolltotop.html %}
-		<!--/Scroll To Top-->
-
+		<!--scripts-->
 {% include scripts.html %}
-
+		<!--/scripts-->
 
 	</body>
-
+	<!--body-->
 
 </html>

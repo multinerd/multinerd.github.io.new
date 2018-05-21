@@ -1,0 +1,833 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'iconsfordevs';
+  src: url("../fonts/iconsfordevs.eot?k42glo");
+  src: url("../fonts/iconsfordevs.eot?k42glo#iefix") format("embedded-opentype"), url("../fonts/iconsfordevs.ttf?k42glo") format("truetype"), url("../fonts/iconsfordevs.woff?k42glo") format("woff"), url("../fonts/iconsfordevs.svg?k42glo#iconsfordevs") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.33rem; }
+[class^="iconsfordevs-"], [class*=" iconsfordevs-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconsfordevs' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.iconsfordevs-spring_amqp:before {
+  content: ""; }
+
+.iconsfordevs-spring_batch:before {
+  content: ""; }
+
+.iconsfordevs-spring_data:before {
+  content: ""; }
+
+.iconsfordevs-spring_flo:before {
+  content: ""; }
+
+.iconsfordevs-spring_for_android:before {
+  content: ""; }
+
+.iconsfordevs-spring_hateoas:before {
+  content: ""; }
+
+.iconsfordevs-spring_integration:before {
+  content: ""; }
+
+.iconsfordevs-spring_io_platform:before {
+  content: ""; }
+
+.iconsfordevs-spring_kafka:before {
+  content: ""; }
+
+.iconsfordevs-spring_ldap:before {
+  content: ""; }
+
+.iconsfordevs-spring_mobile:before {
+  content: ""; }
+
+.iconsfordevs-spring_rest_docs:before {
+  content: ""; }
+
+.iconsfordevs-spring_security:before {
+  content: ""; }
+
+.iconsfordevs-spring_session:before {
+  content: ""; }
+
+.iconsfordevs-spring_shell:before {
+  content: ""; }
+
+.iconsfordevs-spring_social:before {
+  content: ""; }
+
+.iconsfordevs-spring_statemachine:before {
+  content: ""; }
+
+.iconsfordevs-spring_web_flow:before {
+  content: ""; }
+
+.iconsfordevs-spring_web_services:before {
+  content: ""; }
+
+.iconsfordevs-spring_boot:before {
+  content: ""; }
+
+.iconsfordevs-spring_cloud_data:before {
+  content: ""; }
+
+.iconsfordevs-spring_cloud:before {
+  content: ""; }
+
+.iconsfordevs-spring_framework:before {
+  content: ""; }
+
+.iconsfordevs-digital-ocean:before {
+  content: ""; }
+
+.iconsfordevs-adobe_muse:before {
+  content: ""; }
+
+.iconsfordevs-adobe_character_animator:before {
+  content: ""; }
+
+.iconsfordevs-adobe_capture:before {
+  content: ""; }
+
+.iconsfordevs-adobe_captivate:before {
+  content: ""; }
+
+.iconsfordevs-adobe_bridge:before {
+  content: ""; }
+
+.iconsfordevs-adobe_audition:before {
+  content: ""; }
+
+.iconsfordevs-adobe_animate:before {
+  content: ""; }
+
+.iconsfordevs-adobe_air:before {
+  content: ""; }
+
+.iconsfordevs-adobe_acrobat:before {
+  content: ""; }
+
+.iconsfordevs-adobe_dimension:before {
+  content: ""; }
+
+.iconsfordevs-adobe_premiere:before {
+  content: ""; }
+
+.iconsfordevs-adobe_aftereffects:before {
+  content: ""; }
+
+.iconsfordevs-adobe:before {
+  content: ""; }
+
+.iconsfordevs-coldfusion:before {
+  content: ""; }
+
+.iconsfordevs-framemaker:before {
+  content: ""; }
+
+.iconsfordevs-adobe_xd:before {
+  content: ""; }
+
+.iconsfordevs-illustrator:before {
+  content: ""; }
+
+.iconsfordevs-behance:before {
+  content: ""; }
+
+.iconsfordevs-adobe_lightroom:before {
+  content: ""; }
+
+.iconsfordevs-adobe_stock:before {
+  content: ""; }
+
+.iconsfordevs-incopy:before {
+  content: ""; }
+
+.iconsfordevs-creativecloud:before {
+  content: ""; }
+
+.iconsfordevs-photoshop:before {
+  content: ""; }
+
+.iconsfordevs-edge:before {
+  content: ""; }
+
+.iconsfordevs-d3:before {
+  content: ""; }
+
+.iconsfordevs-shopware:before {
+  content: ""; }
+
+.iconsfordevs-sketch:before {
+  content: ""; }
+
+.iconsfordevs-filezilla:before {
+  content: ""; }
+
+.iconsfordevs-odata:before {
+  content: ""; }
+
+.iconsfordevs-kubernetes:before {
+  content: ""; }
+
+.iconsfordevs-mustache:before {
+  content: ""; }
+
+.iconsfordevs-handlebars:before {
+  content: ""; }
+
+.iconsfordevs-indesign:before {
+  content: ""; }
+
+.iconsfordevs-thenounproject:before {
+  content: ""; }
+
+.iconsfordevs-gitlab:before {
+  content: ""; }
+
+.iconsfordevs-marionette:before {
+  content: ""; }
+
+.iconsfordevs-gradle:before {
+  content: ""; }
+
+.iconsfordevs-haxe:before {
+  content: ""; }
+
+.iconsfordevs-mercurial:before {
+  content: ""; }
+
+.iconsfordevs-vargant:before {
+  content: ""; }
+
+.iconsfordevs-arduino:before {
+  content: ""; }
+
+.iconsfordevs-purescript:before {
+  content: ""; }
+
+.iconsfordevs-azure:before {
+  content: ""; }
+
+.iconsfordevs-cucumber:before {
+  content: ""; }
+
+.iconsfordevs-circleci:before {
+  content: ""; }
+
+.iconsfordevs-cordova:before {
+  content: ""; }
+
+.iconsfordevs-jasmine:before {
+  content: ""; }
+
+.iconsfordevs-mozilla_alt:before {
+  content: ""; }
+
+.iconsfordevs-susy:before {
+  content: ""; }
+
+.iconsfordevs-susy_badge:before {
+  content: ""; }
+
+.iconsfordevs-vue:before {
+  content: ""; }
+
+.iconsfordevs-karma:before {
+  content: ""; }
+
+.iconsfordevs-yarn:before {
+  content: ""; }
+
+.iconsfordevs-yarn_kitten:before {
+  content: ""; }
+
+.iconsfordevs-mocha:before {
+  content: ""; }
+
+.iconsfordevs-typescript:before {
+  content: ""; }
+
+.iconsfordevs-git:before {
+  content: ""; }
+
+.iconsfordevs-git_compare:before {
+  content: ""; }
+
+.iconsfordevs-git_branch:before {
+  content: ""; }
+
+.iconsfordevs-git_commit:before {
+  content: ""; }
+
+.iconsfordevs-git_pull_request:before {
+  content: ""; }
+
+.iconsfordevs-git_merge:before {
+  content: ""; }
+
+.iconsfordevs-bitbucket:before {
+  content: ""; }
+
+.iconsfordevs-github_alt:before {
+  content: ""; }
+
+.iconsfordevs-github_badge:before {
+  content: ""; }
+
+.iconsfordevs-github:before {
+  content: ""; }
+
+.iconsfordevs-github_full:before {
+  content: ""; }
+
+.iconsfordevs-java:before {
+  content: ""; }
+
+.iconsfordevs-ruby:before {
+  content: ""; }
+
+.iconsfordevs-scala:before {
+  content: ""; }
+
+.iconsfordevs-python:before {
+  content: ""; }
+
+.iconsfordevs-go:before {
+  content: ""; }
+
+.iconsfordevs-ruby_on_rails:before {
+  content: ""; }
+
+.iconsfordevs-django:before {
+  content: ""; }
+
+.iconsfordevs-markdown:before {
+  content: ""; }
+
+.iconsfordevs-php:before {
+  content: ""; }
+
+.iconsfordevs-mysql:before {
+  content: ""; }
+
+.iconsfordevs-streamline:before {
+  content: ""; }
+
+.iconsfordevs-database:before {
+  content: ""; }
+
+.iconsfordevs-laravel:before {
+  content: ""; }
+
+.iconsfordevs-javascript:before {
+  content: ""; }
+
+.iconsfordevs-angular:before {
+  content: ""; }
+
+.iconsfordevs-backbone:before {
+  content: ""; }
+
+.iconsfordevs-coffeescript:before {
+  content: ""; }
+
+.iconsfordevs-jquery:before {
+  content: ""; }
+
+.iconsfordevs-modernizr:before {
+  content: ""; }
+
+.iconsfordevs-jquery_ui:before {
+  content: ""; }
+
+.iconsfordevs-ember:before {
+  content: ""; }
+
+.iconsfordevs-dojo:before {
+  content: ""; }
+
+.iconsfordevs-nodejs:before {
+  content: ""; }
+
+.iconsfordevs-nodejs_small:before {
+  content: ""; }
+
+.iconsfordevs-javascript_shield:before {
+  content: ""; }
+
+.iconsfordevs-bootstrap:before {
+  content: ""; }
+
+.iconsfordevs-sass:before {
+  content: ""; }
+
+.iconsfordevs-css3_full:before {
+  content: ""; }
+
+.iconsfordevs-css3:before {
+  content: ""; }
+
+.iconsfordevs-html5:before {
+  content: ""; }
+
+.iconsfordevs-html5_multimedia:before {
+  content: ""; }
+
+.iconsfordevs-html5_device_access:before {
+  content: ""; }
+
+.iconsfordevs-html5_3d_effects:before {
+  content: ""; }
+
+.iconsfordevs-html5_connectivity:before {
+  content: ""; }
+
+.iconsfordevs-ghost_small:before {
+  content: ""; }
+
+.iconsfordevs-ghost:before {
+  content: ""; }
+
+.iconsfordevs-magento:before {
+  content: ""; }
+
+.iconsfordevs-joomla:before {
+  content: ""; }
+
+.iconsfordevs-jekyll_small:before {
+  content: ""; }
+
+.iconsfordevs-drupal:before {
+  content: ""; }
+
+.iconsfordevs-wordpress:before {
+  content: ""; }
+
+.iconsfordevs-grunt:before {
+  content: ""; }
+
+.iconsfordevs-bower:before {
+  content: ""; }
+
+.iconsfordevs-npm:before {
+  content: ""; }
+
+.iconsfordevs-yahoo_small:before {
+  content: ""; }
+
+.iconsfordevs-yahoo:before {
+  content: ""; }
+
+.iconsfordevs-bing_small:before {
+  content: ""; }
+
+.iconsfordevs-windows:before {
+  content: ""; }
+
+.iconsfordevs-linux:before {
+  content: ""; }
+
+.iconsfordevs-ubuntu:before {
+  content: ""; }
+
+.iconsfordevs-android:before {
+  content: ""; }
+
+.iconsfordevs-apple:before {
+  content: ""; }
+
+.iconsfordevs-appstore:before {
+  content: ""; }
+
+.iconsfordevs-phonegap:before {
+  content: ""; }
+
+.iconsfordevs-blackberry:before {
+  content: ""; }
+
+.iconsfordevs-stackoverflow:before {
+  content: ""; }
+
+.iconsfordevs-techcrunch:before {
+  content: ""; }
+
+.iconsfordevs-codrops:before {
+  content: ""; }
+
+.iconsfordevs-css_tricks:before {
+  content: ""; }
+
+.iconsfordevs-smashing_magazine:before {
+  content: ""; }
+
+.iconsfordevs-netmagazine:before {
+  content: ""; }
+
+.iconsfordevs-codepen:before {
+  content: ""; }
+
+.iconsfordevs-cssdeck:before {
+  content: ""; }
+
+.iconsfordevs-hackernews:before {
+  content: ""; }
+
+.iconsfordevs-dropbox:before {
+  content: ""; }
+
+.iconsfordevs-google_drive:before {
+  content: ""; }
+
+.iconsfordevs-visualstudio:before {
+  content: ""; }
+
+.iconsfordevs-unity_small:before {
+  content: ""; }
+
+.iconsfordevs-rasberry_pi:before {
+  content: ""; }
+
+.iconsfordevs-chrome:before {
+  content: ""; }
+
+.iconsfordevs-ie:before {
+  content: ""; }
+
+.iconsfordevs-firefox:before {
+  content: ""; }
+
+.iconsfordevs-opera:before {
+  content: ""; }
+
+.iconsfordevs-safari:before {
+  content: ""; }
+
+.iconsfordevs-swift:before {
+  content: ""; }
+
+.iconsfordevs-symfony:before {
+  content: ""; }
+
+.iconsfordevs-symfony_badge:before {
+  content: ""; }
+
+.iconsfordevs-less:before {
+  content: ""; }
+
+.iconsfordevs-stylus:before {
+  content: ""; }
+
+.iconsfordevs-trello:before {
+  content: ""; }
+
+.iconsfordevs-atlassian:before {
+  content: ""; }
+
+.iconsfordevs-jira:before {
+  content: ""; }
+
+.iconsfordevs-envato:before {
+  content: ""; }
+
+.iconsfordevs-snap_svg:before {
+  content: ""; }
+
+.iconsfordevs-raphael:before {
+  content: ""; }
+
+.iconsfordevs-google_analytics:before {
+  content: ""; }
+
+.iconsfordevs-compass:before {
+  content: ""; }
+
+.iconsfordevs-onedrive:before {
+  content: ""; }
+
+.iconsfordevs-gulp:before {
+  content: ""; }
+
+.iconsfordevs-atom:before {
+  content: ""; }
+
+.iconsfordevs-cisco:before {
+  content: ""; }
+
+.iconsfordevs-nancy:before {
+  content: ""; }
+
+.iconsfordevs-clojure:before {
+  content: ""; }
+
+.iconsfordevs-clojure_alt:before {
+  content: ""; }
+
+.iconsfordevs-perl:before {
+  content: ""; }
+
+.iconsfordevs-celluloid:before {
+  content: ""; }
+
+.iconsfordevs-w3c:before {
+  content: ""; }
+
+.iconsfordevs-redis:before {
+  content: ""; }
+
+.iconsfordevs-postgresql:before {
+  content: ""; }
+
+.iconsfordevs-webplatform:before {
+  content: ""; }
+
+.iconsfordevs-jenkins:before {
+  content: ""; }
+
+.iconsfordevs-requirejs:before {
+  content: ""; }
+
+.iconsfordevs-opensource:before {
+  content: ""; }
+
+.iconsfordevs-typo3:before {
+  content: ""; }
+
+.iconsfordevs-uikit:before {
+  content: ""; }
+
+.iconsfordevs-doctrine:before {
+  content: ""; }
+
+.iconsfordevs-groovy:before {
+  content: ""; }
+
+.iconsfordevs-nginx:before {
+  content: ""; }
+
+.iconsfordevs-haskell:before {
+  content: ""; }
+
+.iconsfordevs-zend:before {
+  content: ""; }
+
+.iconsfordevs-gnu:before {
+  content: ""; }
+
+.iconsfordevs-yeoman:before {
+  content: ""; }
+
+.iconsfordevs-heroku:before {
+  content: ""; }
+
+.iconsfordevs-debian:before {
+  content: ""; }
+
+.iconsfordevs-travis:before {
+  content: ""; }
+
+.iconsfordevs-dotnet:before {
+  content: ""; }
+
+.iconsfordevs-codeigniter:before {
+  content: ""; }
+
+.iconsfordevs-javascript_badge:before {
+  content: ""; }
+
+.iconsfordevs-yii:before {
+  content: ""; }
+
+.iconsfordevs-msql_server:before {
+  content: ""; }
+
+.iconsfordevs-composer:before {
+  content: ""; }
+
+.iconsfordevs-krakenjs_badge:before {
+  content: ""; }
+
+.iconsfordevs-krakenjs:before {
+  content: ""; }
+
+.iconsfordevs-mozilla:before {
+  content: ""; }
+
+.iconsfordevs-firebase:before {
+  content: ""; }
+
+.iconsfordevs-sizzlejs:before {
+  content: ""; }
+
+.iconsfordevs-creativecommons:before {
+  content: ""; }
+
+.iconsfordevs-creativecommons_badge:before {
+  content: ""; }
+
+.iconsfordevs-mitlicence:before {
+  content: ""; }
+
+.iconsfordevs-senchatouch:before {
+  content: ""; }
+
+.iconsfordevs-bugsense:before {
+  content: ""; }
+
+.iconsfordevs-extjs:before {
+  content: ""; }
+
+.iconsfordevs-mootools_badge:before {
+  content: ""; }
+
+.iconsfordevs-mootools:before {
+  content: ""; }
+
+.iconsfordevs-ruby_rough:before {
+  content: ""; }
+
+.iconsfordevs-komodo:before {
+  content: ""; }
+
+.iconsfordevs-coda .path1:before {
+  content: "";
+  color: #91CC62; }
+
+.iconsfordevs-coda .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-coda .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-bintray:before {
+  content: ""; }
+
+.iconsfordevs-terminal:before {
+  content: ""; }
+
+.iconsfordevs-code:before {
+  content: ""; }
+
+.iconsfordevs-responsive .path1:before {
+  content: "";
+  color: #FFFFFF; }
+
+.iconsfordevs-responsive .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-responsive .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-responsive .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-responsive .path5:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-responsive .path6:before {
+  content: "";
+  margin-left: -1em;
+  color: #000; }
+
+.iconsfordevs-responsive .path7:before {
+  content: "";
+  margin-left: -1em;
+  color: #FFFFFF; }
+
+.iconsfordevs-dart:before {
+  content: ""; }
+
+.iconsfordevs-aptana:before {
+  content: ""; }
+
+.iconsfordevs-mailchimp:before {
+  content: ""; }
+
+.iconsfordevs-netbeans:before {
+  content: ""; }
+
+.iconsfordevs-dreamweaver:before {
+  content: ""; }
+
+.iconsfordevs-brackets:before {
+  content: ""; }
+
+.iconsfordevs-eclipse:before {
+  content: ""; }
+
+.iconsfordevs-cloud9:before {
+  content: ""; }
+
+.iconsfordevs-scrum:before {
+  content: ""; }
+
+.iconsfordevs-prolog:before {
+  content: ""; }
+
+.iconsfordevs-terminal_badge:before {
+  content: ""; }
+
+.iconsfordevs-code_badge .path1:before {
+  content: "";
+  color: #000; }
+
+.iconsfordevs-code_badge .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #231F20; }
+
+.iconsfordevs-code_badge .path3:before {
+  content: "";
+  margin-left: -1em;
+  color: #231F20; }
+
+.iconsfordevs-code_badge .path4:before {
+  content: "";
+  margin-left: -1em;
+  color: #231F20; }
+
+.iconsfordevs-mongodb:before {
+  content: ""; }
+
+.iconsfordevs-meteor:before {
+  content: ""; }
+
+.iconsfordevs-meteorfull:before {
+  content: ""; }
+
+.iconsfordevs-fsharp:before {
+  content: ""; }
+
+.iconsfordevs-rust:before {
+  content: ""; }
+
+.iconsfordevs-ionic:before {
+  content: ""; }
+
+.iconsfordevs-sublime:before {
+  content: ""; }
+
+/*# sourceMappingURL=iconsfordevs.css.map */

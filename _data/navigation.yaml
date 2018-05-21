@@ -1,35 +1,16 @@
-- title: About
-  link: /about/
-  icon: fa-user
+- title: Home
+  link: /
+#  icon: fa-user
 
-- title: Work
-  link: /work/
-  icon: fa-building
+- title: Blog
+  link: /blog/
+#  icon: fa-pencil
 
-- title: Tech
-  link: /tech/
-  icon: fa-code
-
-- title: Projects
-  link: /projects/
-  icon: fa-desktop
-
-- title: Training
-  link: /training/
-  icon: fa-book
-
-
-#- title: Contact
-#  link: /contact/
-
-
-
-- title: Misc
+- title: Other Stuff
+#  icon: fa-ellipsis-v
   items:
   - title: Cydia Repository
     link: /repository/
     icon: fa-terminal
 
-  - title: Blog
-    link: /blog/
-    icon: fa-pencil
+# About, Portfolio, Contact,
