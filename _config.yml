@@ -14,3 +14,6 @@ include: ['_pages']  # [DIR, FILE, ...]
 
 devFullName: Michael Hedaitulla
 devNickName: Multinerd
+
+
+exclude: [.jekyll-metadata, notes.md, serve.command]
