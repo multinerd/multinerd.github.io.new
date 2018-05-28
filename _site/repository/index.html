@@ -7,27 +7,28 @@
 
 		<meta charset="utf-8">
 		<meta name="robots" content="index,nofollow">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.">
 		<meta name="keywords" content="">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 		<meta name="msapplication-TileColor" content="#603cba">
-		<meta name="msapplication-TileImage" content="/resources/img/icons/mstile-144x144.png">
-		<meta name="msapplication-config" content="/resources/img/icons/browserconfig.xml">
+		<meta name="msapplication-TileImage" content="/resources/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
-		<link rel="apple-touch-icon" href="/resources/img/icons/apple-touch-icon.png" sizes="180x180">
-		<link rel="icon" href="/resources/img/icons/favicon-32x32.png" type="image/png" sizes="32x32">
-		<link rel="icon" href="/resources/img/icons/favicon-194x194.png" type="image/png" sizes="194x194">
-		<link rel="icon" href="/resources/img/icons/android-chrome-192x192.png" type="image/png" sizes="192x192">
-		<link rel="icon" href="/resources/img/icons/favicon-16x16.png" type="image/png" sizes="16x16">
-		<link rel="icon" href="/resources/img/icons/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="/resources/icons/apple-touch-icon.png" sizes="180x180">
+		<link rel="icon" href="/resources/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+		<link rel="icon" href="/resources/icons/favicon-194x194.png" type="image/png" sizes="194x194">
+		<link rel="icon" href="/resources/icons/android-chrome-192x192.png" type="image/png" sizes="192x192">
+		<link rel="icon" href="/resources/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+		<link rel="icon" href="/resources/icons/favicon.ico" type="image/x-icon">
 
-		<link rel="manifest" href="/resources/img/icons/site.webmanifest">
-		<link rel="mask-icon" href="/resources/img/icons/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="/resources/img/icons/favicon.ico">
+		<link rel="manifest" href="/resources/icons/site.webmanifest">
+		<link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/resources/icons/favicon.ico">
 
 		<link rel="canonical" href="http://localhost:4000/repository/">
 		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="Multinerd" />
@@ -40,25 +41,27 @@
 		<!--icons-->
 		<link rel="stylesheet" href="/resources/lib/fontawesome-pro-5.0.10/css/fontawesome-all.min.css">
 		<link rel="stylesheet" href="/resources/lib/iconsfordevs/css/iconsfordevs.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 		<!--styles-->
 		<link rel="stylesheet" href="/resources/lib/bootstrap-4.1.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/resources/lib/mdbootstrap-4.5.2/css/mdb.min.css">
 		<link rel="stylesheet" href="/resources/css/main.css ">
+		<link rel="stylesheet" href="/resources/css/.css ">
 	</head>
 	<!--head-->
 
 	<!--body-->
-	<body id="topOfPage" class="indigo-skin">
+	<body id="topOfPage" class="black-skin">
 
 		<!--content-->
 <header>
 	<!--navigation -->
-				<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top scrolling-navbar">
+				<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
 				<!--navbarBrand -->
 				<a class="navbar-brand" href="/">
-					<img src="/resources/img/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
+					<img src="/resources/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
 				</a>
 
 				<!--collapseButton -->
@@ -75,20 +78,24 @@
 					    <!-- link: Home -->
 						<li class="nav-item">
 							<a class="nav-link" href="/"> Home  </a>
-						</li>  
+						</li>   
 
 					    <!-- link: Blog -->
 						<li class="nav-item">
 							<a class="nav-link" href="/blog/"> Blog  </a>
-						</li>  
-
+						</li>   
 					    <!-- menu: Other Stuff -->
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" id="navbarOtherStuffMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Stuff </a>
-							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarOtherStuffMenuLink"> 
-							                                                                                                                <!-- menu: Cydia Repository -->
+							<a class="nav-link dropdown-toggle" id="navbarOtherStuffMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Other Stuff
+							</a>
+
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarOtherStuffMenuLink">
+								
+							    <!-- menu: Cydia Repository -->
 								<a class="dropdown-item" href="/repository/"> 
-									<i class="fas fa-terminal" aria-hidden="true"></i>  Cydia Repository  </a> 
+									<i class="fas fa-terminal" aria-hidden="true"></i>  Cydia Repository 
+								</a> 
 							</div>
 						</li>  
 					</ul>
@@ -100,7 +107,9 @@
 							<input class="form-control mr-sm-2" placeholder="Search" type="text" aria-label="Search" onclick="search(this)">
 							<!--<div class="search-results"></div>-->
 						</div>
-						<script> function search(clicked) {alert('Not Yet Implemented...'+ clicked.toString());} // var q = clicked.value; window.location.href = "/search/?q=" + q;
+						<script> function search(clicked) {
+			                alert('Not Yet Implemented...' + clicked.toString());
+			            } // var q = clicked.value; window.location.href = "/search/?q=" + q;
 						</script>
 					</form>
 
@@ -190,6 +199,7 @@
 		<script type="text/javascript" src="/resources/lib/bootstrap-4.1.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/resources/lib/mdbootstrap-4.5.2/js/mdb.min.js"></script>
 		<script type="text/javascript" src="/resources/js/script.js"></script>
+		<script type="text/javascript" src="/resources/js/.js"></script>
 		<!--/scripts-->
 
 	</body>

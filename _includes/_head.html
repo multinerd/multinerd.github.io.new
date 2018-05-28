@@ -3,7 +3,8 @@
 
 		<meta charset="utf-8">
 		<meta name="robots" content="index,nofollow">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 		<meta name="keywords" content="{{ site.keywords | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -36,9 +37,11 @@
 		<!--icons-->
 		<link rel="stylesheet" href="/resources/lib/fontawesome-pro-5.0.10/css/fontawesome-all.min.css">
 		<link rel="stylesheet" href="/resources/lib/iconsfordevs/css/iconsfordevs.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 		<!--styles-->
 		<link rel="stylesheet" href="/resources/lib/bootstrap-4.1.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/resources/lib/mdbootstrap-4.5.2/css/mdb.min.css">
 		<link rel="stylesheet" href="/resources/css/main.css ">
+		<link rel="stylesheet" href="/resources/css/{{page.resFile}}.css ">
 	</head>

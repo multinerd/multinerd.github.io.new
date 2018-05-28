@@ -2,47 +2,64 @@
 //# Front matter comment to ensure Jekyll properly reads file.
 //---
 
-$primary-color: #212121;
-$usaf-color: #00308f;
+@import "variables";
 
-.usaf-blue {
-  background-color: $usaf-color !important;
+// Text
+
+//.primary-color {
+//  background-color: $primary-color !important;
+//}
+//
+//.primary-text {
+//  color: $primary-color !important;
+//}
+//
+//.secondary-color {
+//  background-color: $secondary-color !important;
+//}
+//
+//.secondary-text {
+//  color: $secondary-color !important;
+//}
+
+.accent-color {
+  background-color: $accent-color !important;
 }
 
-.usaf-blue-text {
-  color: $usaf-color !important;
+.accent-text {
+  color: $accent-color !important;
 }
 
-
+// Main Site
 body {
   position: relative;
 }
 
-html,
-body,
-header,
-.jarallax {
-  height: 100%;
-}
-
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .jarallax {
-    height: 100vh;
-  }
+//Navigation
+.navbar {
+  background-color: $dark-color !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background-color: transparent !important;
 }
 
-section {
-  min-height: 100vh;
+@media (max-width: 599px) {
+  .navbar:not(.top-nav-collapse) {
+    background: $dark-color !important;
+  }
 }
 
 
+
+//.usaf-blue {
+//  background-color: $usaf-color !important;
+//}
+//
+//.usaf-blue-text {
+//  color: $usaf-color !important;
+//}
+//
 
 // Work Section
 @media (max-width: 1025px) {
@@ -58,14 +75,19 @@ section {
   padding: 0px 24px;
   left: 50%;
 }
+
 @media (max-width: 450px) {
   .stepper.timeline li a {
     left: 6%;
   }
 }
+
 @media (min-width: 451px) and (max-width: 1025px) {
   .stepper.timeline li a {
-    left: 6%; } }
+    left: 6%;
+  }
+}
+
 .stepper.timeline li a .circle {
   width: 50px;
   height: 50px;
@@ -76,13 +98,16 @@ section {
   top: 16px;
   margin-left: -50px;
   background-color: #ccc;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .stepper.timeline li .step-content {
   width: 45%;
   float: left;
   border-radius: 2px;
-  position: relative; }
+  position: relative;
+}
+
 .stepper.timeline li .step-content:before {
   position: absolute;
   top: 26px;
@@ -92,7 +117,9 @@ section {
   border-left: 15px solid #e0e0e0;
   border-right: 0 solid #e0e0e0;
   border-bottom: 15px solid transparent;
-  content: " "; }
+  content: " ";
+}
+
 .stepper.timeline li .step-content:after {
   position: absolute;
   top: 27px;
@@ -102,59 +129,77 @@ section {
   border-left: 14px solid #fff;
   border-right: 0 solid #fff;
   border-bottom: 14px solid transparent;
-  content: " "; }
+  content: " ";
+}
+
 @media (max-width: 450px) {
   .stepper.timeline li .step-content {
     width: 80%;
     left: 3rem;
     margin-right: 3rem;
     margin-bottom: 2rem;
-    float: right; }
+    float: right;
+  }
   .stepper.timeline li .step-content:before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
-    right: auto; }
+    right: auto;
+  }
   .stepper.timeline li .step-content:after {
     border-left-width: 0;
     border-right-width: 14px;
     left: -14px;
-    right: auto; } }
+    right: auto;
+  }
+}
+
 @media (min-width: 451px) and (max-width: 1025px) {
   .stepper.timeline li .step-content {
     width: 85%;
     left: 3rem;
     margin-right: 3rem;
     margin-bottom: 2rem;
-    float: right; }
+    float: right;
+  }
   .stepper.timeline li .step-content:before {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
-    right: auto; }
+    right: auto;
+  }
   .stepper.timeline li .step-content:after {
     border-left-width: 0;
     border-right-width: 14px;
     left: -14px;
-    right: auto; } }
+    right: auto;
+  }
+}
 
 .stepper.timeline li.timeline-inverted {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
-  align-items: flex-end; }
+  align-items: flex-end;
+}
+
 .stepper.timeline li.timeline-inverted .step-content {
-  float: right; }
+  float: right;
+}
+
 .stepper.timeline li.timeline-inverted .step-content:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
-  right: auto; }
+  right: auto;
+}
+
 .stepper.timeline li.timeline-inverted .step-content:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
-  right: auto; }
+  right: auto;
+}
 
 .stepper.stepper-vertical li:not(:last-child):after {
   content: " ";
@@ -163,10 +208,17 @@ section {
   background-color: #e0e0e0;
   left: 50%;
   top: 57px;
-  margin-left: -1.5px; }
+  margin-left: -1.5px;
+}
+
 @media (max-width: 450px) {
   .stepper.stepper-vertical li:not(:last-child):after {
-    left: 6%; } }
+    left: 6%;
+  }
+}
+
 @media (min-width: 451px) and (max-width: 1025px) {
   .stepper.stepper-vertical li:not(:last-child):after {
-    left: 6%; } }
+    left: 6%;
+  }
+}

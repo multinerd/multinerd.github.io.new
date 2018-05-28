@@ -1,8 +1,8 @@
 .accent-color {
-  background-color: #283593 !important; }
+  background-color: #4527a0 !important; }
 
 .accent-text {
-  color: #283593 !important; }
+  color: #4527a0 !important; }
 
 body {
   position: relative; }
@@ -146,5 +146,18 @@ body {
 @media (min-width: 451px) and (max-width: 1025px) {
   .stepper.stepper-vertical li:not(:last-child):after {
     left: 6%; } }
+#home-intro {
+  background-size: cover;
+  background: url("/resources/img/home/wall3.png") no-repeat center center;
+  height: 100vh; }
 
-/*# sourceMappingURL=main.css.map */
+.test {
+  background-color: #0d5bdd; }
+
+.test2 {
+  background-color: #00e5ff; }
+
+.nav-tabs {
+  background-color: pri; }
+
+/*# sourceMappingURL=variables.css.map */

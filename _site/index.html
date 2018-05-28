@@ -7,27 +7,28 @@
 
 		<meta charset="utf-8">
 		<meta name="robots" content="index,nofollow">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.">
 		<meta name="keywords" content="">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
 		<meta name="msapplication-TileColor" content="#603cba">
-		<meta name="msapplication-TileImage" content="/resources/img/icons/mstile-144x144.png">
-		<meta name="msapplication-config" content="/resources/img/icons/browserconfig.xml">
+		<meta name="msapplication-TileImage" content="/resources/icons/mstile-144x144.png">
+		<meta name="msapplication-config" content="/resources/icons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 
-		<link rel="apple-touch-icon" href="/resources/img/icons/apple-touch-icon.png" sizes="180x180">
-		<link rel="icon" href="/resources/img/icons/favicon-32x32.png" type="image/png" sizes="32x32">
-		<link rel="icon" href="/resources/img/icons/favicon-194x194.png" type="image/png" sizes="194x194">
-		<link rel="icon" href="/resources/img/icons/android-chrome-192x192.png" type="image/png" sizes="192x192">
-		<link rel="icon" href="/resources/img/icons/favicon-16x16.png" type="image/png" sizes="16x16">
-		<link rel="icon" href="/resources/img/icons/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="/resources/icons/apple-touch-icon.png" sizes="180x180">
+		<link rel="icon" href="/resources/icons/favicon-32x32.png" type="image/png" sizes="32x32">
+		<link rel="icon" href="/resources/icons/favicon-194x194.png" type="image/png" sizes="194x194">
+		<link rel="icon" href="/resources/icons/android-chrome-192x192.png" type="image/png" sizes="192x192">
+		<link rel="icon" href="/resources/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+		<link rel="icon" href="/resources/icons/favicon.ico" type="image/x-icon">
 
-		<link rel="manifest" href="/resources/img/icons/site.webmanifest">
-		<link rel="mask-icon" href="/resources/img/icons/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="/resources/img/icons/favicon.ico">
+		<link rel="manifest" href="/resources/icons/site.webmanifest">
+		<link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="/resources/icons/favicon.ico">
 
 		<link rel="canonical" href="http://localhost:4000/">
 		<link rel="alternate" href="/feed.xml" type="application/rss+xml" title="Multinerd" />
@@ -40,26 +41,28 @@
 		<!--icons-->
 		<link rel="stylesheet" href="/resources/lib/fontawesome-pro-5.0.10/css/fontawesome-all.min.css">
 		<link rel="stylesheet" href="/resources/lib/iconsfordevs/css/iconsfordevs.min.css">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 		<!--styles-->
 		<link rel="stylesheet" href="/resources/lib/bootstrap-4.1.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/resources/lib/mdbootstrap-4.5.2/css/mdb.min.css">
 		<link rel="stylesheet" href="/resources/css/main.css ">
+		<link rel="stylesheet" href="/resources/css/home.css ">
 	</head>
 	<!--head-->
 
 	<!--body-->
-	<body id="topOfPage" class="indigo-skin">
+	<body id="topOfPage" class="black-skin">
 
 		<!--content-->
-<header id="intro">
+		<header id="intro">
 
-	<!--navigation -->
-			<nav class="navbar navbar-expand-lg navbar-dark primary-color fixed-top scrolling-navbar">
+			<!--navigation -->
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
 
 				<!--navbarBrand -->
 				<a class="navbar-brand" href="/">
-					<img src="/resources/img/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
+					<img src="/resources/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
 				</a>
 
 				<!--collapseButton -->
@@ -76,20 +79,24 @@
 					    <!-- link: Home -->
 						<li class="nav-item active">
 							<a class="nav-link" href="/"> Home  </a>
-						</li>  
+						</li>   
 
 					    <!-- link: Blog -->
 						<li class="nav-item">
 							<a class="nav-link" href="/blog/"> Blog  </a>
-						</li>  
-
+						</li>   
 					    <!-- menu: Other Stuff -->
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" id="navbarOtherStuffMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Stuff </a>
-							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarOtherStuffMenuLink"> 
-							                                                                                                                <!-- menu: Cydia Repository -->
+							<a class="nav-link dropdown-toggle" id="navbarOtherStuffMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Other Stuff
+							</a>
+
+							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarOtherStuffMenuLink">
+								
+							    <!-- menu: Cydia Repository -->
 								<a class="dropdown-item" href="/repository/"> 
-									<i class="fas fa-terminal" aria-hidden="true"></i>  Cydia Repository  </a> 
+									<i class="fas fa-terminal" aria-hidden="true"></i>  Cydia Repository 
+								</a> 
 							</div>
 						</li>  
 					</ul>
@@ -101,248 +108,300 @@
 							<input class="form-control mr-sm-2" placeholder="Search" type="text" aria-label="Search" onclick="search(this)">
 							<!--<div class="search-results"></div>-->
 						</div>
-						<script> function search(clicked) {alert('Not Yet Implemented...'+ clicked.toString());} // var q = clicked.value; window.location.href = "/search/?q=" + q;
+						<script> function search(clicked) {
+			                alert('Not Yet Implemented...' + clicked.toString());
+			            } // var q = clicked.value; window.location.href = "/search/?q=" + q;
 						</script>
 					</form>
 
 				</div>
 
 			</nav>
-	<!--/navigation -->
+			<!--/navigation -->
 
-	<!--intro -->
-				<div class="view jarallax" data-jarallax='{"speed": 0.5}' style="background: url(/resources/img/wall3.png);">
+			<!--intro-->
+			<div id="home-intro" class="view jarallax full-bg-img" data-jarallax='{"speed": 0.2}'>
+				<!--mask&FlexBox-->
+				<div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+					<!--container-->
+					<div class="container flex-center">
+						<!--row-->
+						<div class="row">
+							<!--column-->
+							<div class="col-md-12 white-text text-center">
+								<img src="/resources/icons/mn.svg" alt="logo" data-wow-delay="0.3s" class="mn-logo display-2 animated pulse" style="margin-top:-30%;margin-bottom: -200px">
 
-					<div class="full-bg-img">
+								<h1 class="display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">Michael
+									<a class="accent-text font-weight-bold">Hedaitulla</a>
+								</h1>
 
-						<div class="mask rgba-black-strong rgba-gradient">
+								<h5 class="text-uppercase pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">Software Developer & Computer Nerd</h5>
 
-							<div class="container flex-center">
-
-								<div class="row smooth-scroll pt-5 mt-3">
-
-									<div class="col-md-12 mb-3 text-center white-text">
-
-										<img src="/resources/img/icons/mn.svg" alt="logo" data-wow-delay="0.3s" class="display-2 animated pulse" style="margin-top:-30%;margin-bottom: -200px">
-
-										<h1 class="text-uppercase display-3 mb-0 pt-md-5 pt-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">Michael
-											<a class="indigo-text">Hedaitulla</a>
-										</h1>
-
-										<h5 class="text-uppercase pb-md-5 pb-sm-3 pb-5 white-text font-weight-bold wow fadeInDown" data-wow-delay="0.3s">Software Developer & Computer Nerd</h5>
-										<!--<div class="wow fadeInDown" data-wow-delay="0.3s">-->
-											<!--<a class="btn btn-light-blue btn-lg">portfolio</a>-->
-											<!--<a class="btn btn-indigo btn-lg">About me</a>-->
-										<!--</div>-->
-
-
-
-
-
-									</div>
-
-								</div>
-
+								<!--<div class="wow fadeInDown" data-wow-delay="0.3s">-->
+									<!--<a href="#about" class="btn btn-indigo btn-floating btn-large smooth-scroll wow fadeIn" data-wow-delay="0.4s" data-offset="100"><i class="fa fa-angle-down" aria-hidden="true"></i></a>-->
+								<!--</div>-->
 							</div>
+							<!--column-->
+						</div>
+						<!--row-->
+					</div>
+					<!--container-->
+				</div>
+				<!--/mask&FlexBox-->
+			</div>
+			<!--/intro-->
+		</header>
 
+		<!--mainLayout-->
+		<main>
+
+			<!--whoIAmContainer-->
+			<div id="whoIAmSpy" class="container pt-4">
+
+				<!--whoIAmSection-->
+				<section id="whoIAm" class="section mb-5">
+
+					<!--sectionTitle-->
+					<h2 class="text-center text-uppercase mt-5 wow fadeIn" data-wow-delay="0.2s">Who <strong>I am</strong></h2>
+					<hr class="between-sections mb-5">
+
+					<!--content-->
+					<div class="row d-flex align-items-center">
+						
+
+						<!--avatar-->
+						<div class="avatar mx-auto mb-4 wow fadeIn">
+							<img src="/resources/img/home/me.png" class="rounded-circle img-fluid" alt="Michael Hedaitulla's Avatar" width="200vh">
 						</div>
 
+						<!--summary-->
+						<p class="mx-auto wow fadeIn my-5 text-center">
+							I made my first site when I was at the tender age of 13. <br> Ever since then, I've been constantly striving to improve my skills. <br><br> Software development is my driving passion and everything in my life is affected by it, life decisions are based upon it. <br> Realize great things is what makes me satisfied, and when others use it, is awesome. <br><br>I'm a lifelong learner, automation enthusiast, DevOps lover and Mobile Developer with an eye on design. <br>Away from develop things, I love beer, eating everything and playing every sports, especially snowboard.
+						</p>
+						
 					</div>
 
+				</section>
+				<!--/whoIAmSection-->
+			</div>
+			<!--/whoIAmContainer-->
+
+			<!--whatIDoContainer-->
+			<div id="whatIDoSpy" class="container pt-4">
+
+				<!--whatIDoSection-->
+				<section id="whatIDo" class="section mb-5">
+
+					<!--whatIDoSectionTitle-->
+					<h2 class="text-center text-uppercase mt-5 wow fadeIn" data-wow-delay="0.2s">What <strong>I do</strong></h2>
+					<hr class="between-sections mb-5">
+
+					<!--whatIDoSectionSkills-->
+					<div class="row wow fadeIn" data-wow-delay="0.2s">
+						
+						<!--softwareDevelopement-->
+						<div class="col-lg-3 col-md-6 text-center mt-1">
+							<!--icon-->
+							<div class="circle-icon"><i class="fas fa-code"></i></div>
+							<br>
+
+							<!--title-->
+							<strong class="text-uppercase">Software Developement</strong>
+
+							<!--description-->
+							<p>Build and deploy desktop and mobile applications.</p>
+
+							<!--footer-->
+							<div class="modal-footer d-flex justify-content-center">
+								 
+								<i class="fas devicon-swift-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Swift"></i>   
+								<img src="resources/img/home/ObjC.svg" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Objective C" height="20px" width="20px" class="mx-0" />   
+								<i class="fas devicon-csharp-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="C#"></i>   
+								<i class="fas devicon-ruby-plain-wordmark colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Ruby"></i>  
+							</div>
+						</div>
+						
+						<!--webDevelopment-->
+						<div class="col-lg-3 col-md-6 text-center mt-1">
+							<!--icon-->
+							<div class="circle-icon"><i class="fas fa-desktop"></i></div>
+							<br>
+
+							<!--title-->
+							<strong class="text-uppercase">Web Developement</strong>
+
+							<!--description-->
+							<p>Build and design responsive websites.</p>
+
+							<!--footer-->
+							<div class="modal-footer d-flex justify-content-center">
+								 
+								<i class="fas devicon-html5-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="HTML5"></i>   
+								<i class="fas devicon-css3-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="CSS3"></i>   
+								<i class="fas devicon-javascript-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Javascript"></i>   
+								<i class="fas devicon-dot-net-plain-wordmark colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="ASP.NET"></i>   
+								<img src="resources/img/home/jekyll.svg" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Jekyll" height="20px" width="20px" class="mx-0" />  
+							</div>
+						</div>
+						
+						<!--backendDevelopment-->
+						<div class="col-lg-3 col-md-6 text-center mt-1">
+							<!--icon-->
+							<div class="circle-icon"><i class="fas fa-database"></i></div>
+							<br>
+
+							<!--title-->
+							<strong class="text-uppercase">Backend Developement</strong>
+
+							<!--description-->
+							<p>Maintain a backend to power applications and websites.</p>
+
+							<!--footer-->
+							<div class="modal-footer d-flex justify-content-center">
+								 
+								<i class="fas iconsfordevs iconsfordevs-msql_server" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="MSSQL Server"></i>   
+								<i class="fas devicon-amazonwebservices-plain-wordmark colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Amazon Web Service"></i>  
+							</div>
+						</div>
+						
+						<!--backendDevelopment-->
+						<div class="col-lg-3 col-md-6 text-center mt-1">
+							<!--icon-->
+							<div class="circle-icon"><i class="fas fa-paint-brush"></i></div>
+							<br>
+
+							<!--title-->
+							<strong class="text-uppercase">Graphic Design</strong>
+
+							<!--description-->
+							<p>Create icons and various graphics for development.</p>
+
+							<!--footer-->
+							<div class="modal-footer d-flex justify-content-center">
+								 
+								<i class="fas devicon-photoshop-plain colored" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Photoshop"></i>  
+							</div>
+						</div>
+						
+					</div>
+
+				</section>
+				<!--/whatIDoSection-->
+			</div>
+			<!--/whatIDoContainer-->
+
+			<!--streak-->
+			<div id="virtuesSpy" class="pt-4">
+				<div class="streak streak-photo" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20%2811%29.jpg')">
+					<div class="mask flex-center rgba-black-strong">
+						<div class="white-text smooth-scroll mx-4">
+							<h2 class="h2-responsive wow fadeIn mb-5 text-center">
+								<i class="fa fa-quote-left" aria-hidden="true"></i>
+								The three chief virtues of a programmer are: Laziness, Impatience and Hubris.
+								<i class="fa fa-quote-right" aria-hidden="true"></i>
+							</h2>
+							<h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Larry Wall</h5>
+						</div>
+					</div>
 				</div>
-	<!--/intro -->
-
-</header>
-
-<!--mainLayout-->
-<main>
-
-	<!--aboutContainer-->
-	<div id="about" class="container pt-5">
-
-		<!--aboutSection-->
-		<section class="section text-center">
-
-			<!--title -->
-			<h2 class="text-uppercase my-5 wow fadeIn">About <strong>me</strong></h2>
-
-			<!--avatar-->
-			<div class="avatar mx-auto mb-4 wow fadeIn">
-				<img src="/resources/img/me.png" class="rounded-circle img-fluid" alt="Michael Hedaitulla's Avatar" width="200vh">
 			</div>
 
-			<!--content-->
-			<p class="mx-auto wow fadeIn my-5">
-				There will one day be an 'About Me' here... Just as soon as I accept how little control I have over my data.
-			</p>
+			<!--streak-->
 
-		</section>
-		<!--/aboutSection-->
+			<!--virtuesContainer-->
+			<div class="container pt-4">
 
-	</div>
-	<!--/aboutContainer-->
+				<!--virtuesSection-->
+				<section id="virtues" class="section mb-5">
 
-	<!--workContainer-->
-	<div id="work" class="container-fluid pt-5 rgba-indigo-light lighten-3">
+					<!--virtuesSectionTitle-->
+					<h2 class="text-center text-uppercase mt-5 wow fadeIn" data-wow-delay="0.2s">Virtues of a
+						<strong>programmer</strong></h2>
+					<hr class="between-sections mb-5">
 
-		<!--workSection-->
-		<section class="section work-section text-center">
+					<p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">
+						Ultimately, it means I can make a career out of laziness, impatience, and hubris. </p>
 
-			<!--title -->
-			<h2 class="text-uppercase my-5 wow fadeIn" >Work <strong>Experience</strong></h2>
-
-			<!--timeine -->
-			<div class="row mt-5">
-				<div class="col-md-12">
-					<ul class="stepper stepper-vertical timeline pl-0 wow fadeIn"> 
-						<li class="">
-							<!--timeineButton-->
-							<a class="wow fadeIn" >
-								<span class="circle usaf-blue darken-3 z-depth-1-half"  data-toggle="tooltip" data-placement="right" title="U.S Air Force">
-									<i class="fa fa-building" aria-hidden="true"></i>
-								</span>
-							</a>
-							<!--timeineCard-->
-							<div class="step-content z-depth-1 ml-xl-0 p-0" >
-
-								<!--card-->
-								<div class="card testimonial-card">
-
-									<!--header-->
-									<div class="card-up usaf-blue darken-3"></div>
-
-									<!--avatar-->
-									<div class="avatar mx-auto white">
-										<img src="/resources/img/work/usaf.jpg" alt="U.S Air Force" class="rounded-circle">
-									</div>
-
-									<!--body-->
-									<div class="card-body">
-										<h4 class="card-title"> Aircraft Mechanic @ U.S Air Force  </h4>
-
-										<i class="pl-2 fa fa-clock usaf-blue-text darken-3"></i> March 2011 - December 2014
-										<i class="pl-2 fa fa-map-marker-alt usaf-blue-text darken-3"></i> Little Rock AFB, AR
-									</div>
-
-									<!--footer-->
-									<div class="card-footer">
-										<span class="float-left d-flex flex-row">
-											<!--<a data-toggle="tooltip" data-placement="top" title="NodeJS / Express" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-nodejs_small"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="MongoDB" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-mongodb"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="MDBootstrap" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-bootstrap"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="Sass" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-sass"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="Grunt" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-grunt"></i>-->
-											<!--</a>-->
-										</span>
-
-										<span class="float-right">
-											<a data-toggle="tooltip" data-placement="top" title="U.S Air Force's Website" href="http://www.af.mil/" target="_blank">
-												<i class="fa fa-external-link factorioColor"></i>
-											</a>
-										</span>
-
-									</div>
-
-								</div>
-								<!--/card-->
-
-							</div>
-						</li> 
-						<li class="timeline-inverted">
-							<!--timeineButton-->
-							<a class="wow fadeIn" >
-								<span class="circle orange darken-3 z-depth-1-half"  data-toggle="tooltip" data-placement="left" title="Western Beef">
-									<i class="fa fa-building" aria-hidden="true"></i>
-								</span>
-							</a>
-							<!--timeineCard-->
-							<div class="step-content z-depth-1 ml-xl-0 p-0" >
-
-								<!--card-->
-								<div class="card testimonial-card">
-
-									<!--header-->
-									<div class="card-up orange darken-3"></div>
-
-									<!--avatar-->
-									<div class="avatar mx-auto white">
-										<img src="/resources/img/work/westernbeef.jpg" alt="Western Beef" class="rounded-circle">
-									</div>
-
-									<!--body-->
-									<div class="card-body">
-										<h4 class="card-title"> Software Developer @ Western Beef  </h4>
-
-										<i class="pl-2 fa fa-clock orange-text darken-3"></i> October 2015 - Present
-										<i class="pl-2 fa fa-map-marker-alt orange-text darken-3"></i> Ridgewood, NY
-									</div>
-
-									<!--footer-->
-									<div class="card-footer">
-										<span class="float-left d-flex flex-row">
-											<!--<a data-toggle="tooltip" data-placement="top" title="NodeJS / Express" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-nodejs_small"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="MongoDB" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-mongodb"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="MDBootstrap" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-bootstrap"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="Sass" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-sass"></i>-->
-											<!--</a>-->
-											<!--<a data-toggle="tooltip" data-placement="top" title="Grunt" class="p-0">-->
-												<!--<i class="fa-lg iconsfordevs iconsfordevs-grunt"></i>-->
-											<!--</a>-->
-										</span>
-
-										<span class="float-right">
-											<a data-toggle="tooltip" data-placement="top" title="Western Beef's Website" href="http://www.westernbeef.com/" target="_blank">
-												<i class="fa fa-external-link factorioColor"></i>
-											</a>
-										</span>
-
-									</div>
-
-								</div>
-								<!--/card-->
-
-							</div>
-						</li> 
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs nav-justified" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#panel1" role="tab">01. Laziness</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#panel2" role="tab">02. Impatience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#panel3" role="tab">03. Hubris</a>
+						</li>
 					</ul>
-				</div>
+					<!-- Tab panels -->
+					<div class="tab-content card">
+						<!--Panel 1-->
+						<div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+							<br>
+							<div class="row mt-2">
+								<div class="col-2 text-center">
+									<i class="fal fa-code fa-3x mb-1 grey-text" aria-hidden="true"></i>
+								</div>
+								<div class="col-9 mb-2">
+									<p class="dark-grey-text">
+										I'm too lazy to do the same task repeatedly, so I write scripts to automate a task for me.
+										<br>This makes people think I am intelligent. </p>
+								</div>
+							</div>
+						</div>
+						<!--/.Panel 1-->
+						<!--Panel 2-->
+						<div class="tab-pane fade" id="panel2" role="tabpanel">
+							<br>
+							<div class="row mt-2">
+								<div class="col-2 text-center">
+									<i class="fal fa-stopwatch fa-3x mb-1 grey-text" aria-hidden="true"></i>
+								</div>
+								<div class="col-9 mb-2">
+									<p class="dark-grey-text">
+										I'm too impatient to wait for my code to run so rewrite the code to improve performance.
+										<br>This makes people think I am a good programmer. </p>
+								</div>
+							</div>
+						</div>
+						<!--/.Panel 2-->
+						<!--Panel 3-->
+						<div class="tab-pane fade" id="panel3" role="tabpanel">
+							<br>
+							<div class="row mt-2">
+								<div class="col-2 text-center">
+									<i class="fal fa-thumbs-up fa-3x mb-1 grey-text" aria-hidden="true"></i>
+								</div>
+								<div class="col-9 mb-2">
+									<p class="dark-grey-text">
+										When someone asks if I can do something I just say 'yes', then find out how to do it (StackOverflow).
+										<br>This makes people think I can do anything. </p>
+								</div>
+							</div>
+						</div>
+						<!--/.Panel 3-->
+					</div>
+					<!-- /.Tab panels -->
+
+				</section>
+				<!--/virtuesSection-->
 			</div>
-			<!-- timeine -->
+			<!--/virtuesContainer-->
 
-		</section>
-		<!--/workSection-->
+			<!--scrollSpy -->
+			<div class="dotted-scrollspy">
+				<ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
+					<li class="nav-item"><a class="nav-link" href="#intro"><span></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="#whoIAmSpy"><span></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="#whatIDoSpy"><span></span></a></li>
+					<li class="nav-item"><a class="nav-link" href="#virtuesSpy"><span></span></a></li>
+				</ul>
+			</div>
+			<!--/scrollSpy -->
 
-	</div>
-	<!--/workContainer-->
-
-	<!--scrollSpy -->
-	<div class="dotted-scrollspy">
-		<ul class="nav smooth-scroll clearfix d-none d-sm-flex flex-column">
-			<li class="nav-item"><a class="nav-link" href="#intro"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#work"><span></span></a></li>
-		</ul>
-	</div>
-	<!--/scrollSpy -->
-
-</main><!--/mainLayout-->
-
-
+		</main>
+		<!--/mainLayout-->
 
 		<!--content-->
 
@@ -382,6 +441,7 @@
 		<script type="text/javascript" src="/resources/lib/bootstrap-4.1.0/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="/resources/lib/mdbootstrap-4.5.2/js/mdb.min.js"></script>
 		<script type="text/javascript" src="/resources/js/script.js"></script>
+		<script type="text/javascript" src="/resources/js/home.js"></script>
 		<!--/scripts-->
 
 	</body>
