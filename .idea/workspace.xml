@@ -2,39 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d870e6-b004-45d6-a786-c9e25c51791c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/multinerd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/multinerd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.jekyll-metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/_head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/intros/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/home/skills.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/home/skills.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/hello-world.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/hello-world.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2014/11/29/test-page-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/repository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/repository/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/resources/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_site/resources/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/img/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/img/wall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/img/wall2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/resources/img/wall3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/me.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/wall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/wall2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/img/wall3.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,13 +34,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
+            <state relative-caret-position="540">
+              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
               <folding>
-                <element signature="e#1578#2878#0" />
-                <element signature="e#1629#2845#0" />
+                <element signature="e#2437#3095#0" />
                 <element signature="e#2519#2627#0" expanded="true" />
+                <element signature="e#6038#8780#0" />
+                <element signature="e#6561#7011#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -83,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -123,7 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data-wow-delay=&quot;0.2s&quot;</find>
       <find>work-section</find>
       <find>/site/js/init.js</find>
       <find>w</find>
@@ -153,6 +142,7 @@
       <find>designer</find>
       <find>indigo</find>
       <find>secondar</find>
+      <find>wow fadeIn</find>
     </findStrings>
     <replaceStrings>
       <replace>westernBeef</replace>
@@ -199,7 +189,6 @@
         <option value="$PROJECT_DIR$/_includes/intro.html" />
         <option value="$PROJECT_DIR$/_layouts/defaultm.html" />
         <option value="$PROJECT_DIR$/_layouts/newdefault.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_includes/utilities/scrollToTop.html" />
         <option value="$PROJECT_DIR$/img/style.css" />
         <option value="$PROJECT_DIR$/_includes/ unused code.html" />
@@ -231,7 +220,6 @@
         <option value="$PROJECT_DIR$/resources/css/home.css" />
         <option value="$PROJECT_DIR$/resources/js/home.js" />
         <option value="$PROJECT_DIR$/_includes/intros/default.html" />
-        <option value="$PROJECT_DIR$/_data/home/skills.yaml" />
         <option value="$PROJECT_DIR$/_data/home/about.yaml" />
         <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/_includes/scripts.html" />
@@ -239,11 +227,13 @@
         <option value="$PROJECT_DIR$/resources/css/mdb.scss" />
         <option value="$PROJECT_DIR$/_includes/_head.html" />
         <option value="$PROJECT_DIR$/_includes/home/intro.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/resources/css/main.scss" />
         <option value="$PROJECT_DIR$/resources/css/home.scss" />
         <option value="$PROJECT_DIR$/resources/css/variables.scss" />
+        <option value="$PROJECT_DIR$/_data/home/skills.yaml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
@@ -419,12 +409,12 @@
       <workItem from="1526763976214" duration="169000" />
       <workItem from="1526764158433" duration="42471000" />
       <workItem from="1527014809390" duration="82000" />
-      <workItem from="1527454680056" duration="26762000" />
+      <workItem from="1527454680056" duration="27445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195632000" />
+    <option name="totallyTimeSpent" value="196315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -456,7 +446,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/fontello.css" />
     <entry file="file://$PROJECT_DIR$/img/script.js" />
     <entry file="file://$PROJECT_DIR$/index_rc.html" />
     <entry file="file://$PROJECT_DIR$/img/colors.css" />
@@ -649,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/home/skills.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -741,18 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
-          <folding>
-            <element signature="e#1578#2878#0" />
-            <element signature="e#1629#2845#0" />
-            <element signature="e#2519#2627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/home/intro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -778,6 +748,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/home/skills.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <folding>
+            <element signature="e#2437#3095#0" />
+            <element signature="e#2519#2627#0" expanded="true" />
+            <element signature="e#6038#8780#0" />
+            <element signature="e#6561#7011#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
         </state>
       </provider>
     </entry>

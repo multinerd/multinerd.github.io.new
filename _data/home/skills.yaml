@@ -6,7 +6,7 @@
     - title: Swift
       icon: devicon-swift-plain colored
       isSVG: false
-    - title: Objective C
+    - title: Obj-C
       icon: resources/img/home/ObjC.svg
       isSVG: true
     - title: C#
