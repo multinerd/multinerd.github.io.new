@@ -16,9 +16,12 @@
 {% include utilities/scrollToTop.html %}
 		<!--/scrollToTop-->
 
+
+		{% unless page.url == '/repository/' %}
 		<!--footer-->
 {% include footer.html %}
 		<!--/footer-->
+		{% endunless %}
 
 		<!--scripts-->
 {% include scripts.html %}

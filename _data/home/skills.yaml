@@ -7,7 +7,7 @@
       icon: devicon-swift-plain colored
       isSVG: false
     - title: Obj-C
-      icon: resources/img/home/ObjC.svg
+      icon: resources/img/languages/ObjC.svg
       isSVG: true
     - title: C#
       icon: devicon-csharp-plain colored
@@ -33,7 +33,7 @@
       icon: devicon-dot-net-plain-wordmark colored
       isSVG: false
     - title: Jekyll
-      icon: resources/img/home/jekyll.svg
+      icon: resources/img/languages/jekyll.svg
       isSVG: true
 - title: Backend Developement
   codeTitle: backendDevelopment

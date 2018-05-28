@@ -1,13 +1,10 @@
 #home-intro {
   background-size: cover;
-  background: url("/resources/img/home/wall3.png") no-repeat center center;
+  background: url("/resources/img/home/intro.jpg") no-repeat center center;
   height: 100vh; }
 
-.test {
-  background-color: #0d5bdd; }
-
-.test2 {
-  background-color: #00e5ff; }
+.streak-quote-1 {
+  background: url("/resources/img/home/streak-1.jpg") no-repeat center center; }
 
 .nav-tabs {
   background-color: #283593; }
