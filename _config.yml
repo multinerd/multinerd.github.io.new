@@ -7,13 +7,9 @@ github_username:  multinerd
 description: > # this means to ignore newlines until "url"
   Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.
 url: "http://multinerd.github.io"
-baseurl: "" # the sub-path of your site, e.g. /blog
+baseurl: ""
+permalink: /blog/:title/
 logo: "/img/icons/favicon-32x32.png"
 
 include: ['_pages']  # [DIR, FILE, ...]
-
-devFullName: Michael Hedaitulla
-devNickName: Multinerd
-
-
 exclude: [.jekyll-metadata, notes.md, serve.command]
