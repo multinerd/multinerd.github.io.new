@@ -1,3 +1,8 @@
+---
+layout: default
+resFile: blog
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
@@ -7,7 +12,7 @@
 
 	<!--body-->
 	<body id="topOfPage" class="black-skin">
-	{{page.url}}
+
 		<!--content-->
 {{ content }}
 		<!--content-->
@@ -15,6 +20,7 @@
 		<!--scrollToTop-->
 {% include utilities/scrollToTop.html %}
 		<!--/scrollToTop-->
+
 
 		{% unless page.url == '/repository/' %}
 		<!--footer-->
