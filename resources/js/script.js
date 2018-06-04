@@ -20,7 +20,7 @@ $(function() {
 
     // initialize lightbox
     $(function () {
-        $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
+        $("#mdb-lightbox-ui").load("/resources/lib/mdbootstrap-4.5.3/mdb-addons/mdb-lightbox-ui.html");
     });
 
     $('.navbar-collapse a').click(function(){
