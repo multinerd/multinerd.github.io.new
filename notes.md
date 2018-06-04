@@ -83,7 +83,6 @@ Scrollspy on categories/tags
 
         0.2.2 : @sstar Resolved an issue preventing disabling comments for individual pages #44
 
-        0.2.1 : Resolve incorrect HOME_PATH/BASE_PATH settings
 
     0.2.0 : 2012.02.01
     Features

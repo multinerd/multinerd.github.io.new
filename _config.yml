@@ -32,8 +32,8 @@ exclude:
 blog:
   path:
     feed:
-      atom: /blog/feed/atom.xml
-      rss: /blog/feed/rss.xml
+      atom: /blog/feeds/atom.xml
+      rss: /blog/feeds/rss.xml
 
 
 
@@ -114,15 +114,6 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   BASE_PATH : false
 
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex:
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
@@ -172,12 +163,32 @@ JB :
         idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
+  # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin, reddut
+  # Add a tweet button 		=> provider : tweet
+  # Add a like button 		=> provider : like (you also need a facebook appid)
+  # Add a plus one button 	=> provider : plusone
+  # Add a HackerNews button => provider : hn
+  # Add them all (i.e. hn + tweet + plusone + like) => provider : all
   sharing :
-    provider : false
+    provider : all
+    twitter :
+      size :
+      via :
+      count :
+    facebook :
+      appid : 205602882797935
+      layout : button_count
+      font :
+      faces : false
+      width : 90
+    googleplus :
+      size : medium
+      width :
+      annotation : bubble
+    linkedin :
+      counter : right
+
+
 
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
@@ -189,4 +200,3 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-

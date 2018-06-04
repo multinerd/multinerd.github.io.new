@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include JB/setup %}
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 	<!--head-->
 {% include _head.html %}
 	<!--head-->
@@ -19,6 +19,9 @@
 		<!--/navigation-->
 
 		<main class="grey lighten-4">
+			{{ page.url | replace:'index.html','' | absolute_url }}
+
+
 			<!--content-->
 	{{ content }}
 			<!--content-->

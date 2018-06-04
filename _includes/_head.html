@@ -29,8 +29,8 @@
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 		<!-- feeds -->
-		<link rel="alternate" href="{{ site.MN.path.blogfeed.atom }}" type="application/atom+xml" title="{{ site.title | escape }} ATOM Feed" />
-		<link rel="alternate" href="{{ site.MN.path.blogfeed.rss }}" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" />
+		<link rel="alternate" href="{{ site.blog.path.feed.atom | absolute_url }}" type="application/atom+xml" title="{{ site.title | escape }} ATOM Feed" />
+		<link rel="alternate" href="{{ site.blog.path.feed.rss | absolute_url }}" type="application/rss+xml" title="{{ site.title | escape }} RSS Feed" />
 
 		<!--fonts-->
 		<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600" type="text/css">-->
