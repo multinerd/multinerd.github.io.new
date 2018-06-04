@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <pubDate>Mon, 04 Jun 2018 14:29:09 -0400</pubDate>
+        <lastBuildDate>Mon, 04 Jun 2018 14:29:09 -0400</lastBuildDate>
+        <title>Multinerd</title>
+        <description>Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.</description>
+        <link>http://multinerd.github.io</link>
+        <atom:link href="http://multinerd.github.io/blog/feed/rss.xml" rel="self" type="application/rss+xml" />
+        <ttl>60</ttl>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/test-page</guid>
+            <title>Welcome to Jekyll4!</title>
+            <description>
+                You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve --watch, which launches a web server and auto-regenerates your site when a file is updated.
+
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2018-05-20-test-page.html</link>
+
+            <pubDate>Sun, 20 May 2018 00:00:00 -0400</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/web</guid>
+            <title>Web Blogpost</title>
+            <description>
+                Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll’s dedicated Help repository.
+
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2017-05-20-web.html</link>
+
+            <pubDate>Sat, 20 May 2017 00:00:00 -0400</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/swift</guid>
+            <title>Swift Blogpost</title>
+            <description>
+                To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2015-05-20-swift.html</link>
+
+            <pubDate>Wed, 20 May 2015 00:00:00 -0400</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/introducing-lanyon</guid>
+            <title>Introducing Lanyon</title>
+            <description>
+                Lanyon is an unassuming Jekyll theme that places content first by tucking away navigation in a hidden drawer. It’s based on Poole, the Jekyll butler.
+
+Built on Poole
+
+Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by @mdo. Poole, and every theme built on it (like Lanyon here) includes the following:
+
+
+  Complete Jekyll setup included (layouts, config, 404, RSS feed, posts, and example page)
+  Mobile friendly design and development
+  Easily scalable text and component sizing with rem units in the CSS
+  Support for a wide gamut of HTML elements
+  Related posts (time-based, because Jekyll) below each post
+  Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+
+
+Lanyon features
+
+In addition to the features of Poole, Lanyon adds the following:
+
+
+  Toggleable sliding sidebar (built with only CSS) via ☰ link in top corner
+  Sidebar includes support for textual modules and a dynamically generated navigation with active link support
+  Two orientations for content and sidebar, default (left sidebar) and reverse (right sidebar), available via &amp;lt;body&amp;gt; classes
+  Eight optional color schemes, available via &amp;lt;body&amp;gt; classes
+
+
+Head to the readme to learn more.
+
+Browser support
+
+Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+
+Download
+
+Lanyon is developed on and hosted with GitHub. Head to the GitHub repository for downloads, bug reports, and features requests.
+
+Thanks!
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2014-01-02-introducing-lanyon.html</link>
+
+            <pubDate>Thu, 02 Jan 2014 00:00:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/example-content</guid>
+            <title>Example content</title>
+            <description>
+                
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+
+
+  Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+
+
+Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+
+Inline HTML elements
+
+HTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network.
+
+
+  To bold text, use &amp;lt;strong&amp;gt;.
+  To italicize text, use &amp;lt;em&amp;gt;.
+  Abbreviations, like HTML should use &amp;lt;abbr&amp;gt;, with an optional title attribute for the full phrase.
+  Citations, like — Mark otto, should use &amp;lt;cite&amp;gt;.
+  Deleted text should use &amp;lt;del&amp;gt; and inserted text should use &amp;lt;ins&amp;gt;.
+  Superscript text uses &amp;lt;sup&amp;gt; and subscript text uses &amp;lt;sub&amp;gt;.
+
+
+Most of these elements are styled by browsers with few modifications on our part.
+
+Heading
+
+Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+Code
+
+Cum sociis natoque penatibus et magnis dis code element montes, nascetur ridiculus mus.
+
+// Example can be run directly in your JavaScript console
+
+
+// Create a function that takes two arguments and returns the sum of those arguments
+
+var adder = new Function(&quot;a&quot;, &quot;b&quot;, &quot;return a + b&quot;);
+
+// Call the function
+
+adder(2, 6);
+// &amp;gt; 8
+
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+
+Lists
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+  Donec id elit non mi porta gravida at eget metus.
+  Nulla vitae elit libero, a pharetra augue.
+
+
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+
+
+  Vestibulum id ligula porta felis euismod semper.
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+
+Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+
+
+  HyperText Markup Language (HTML)
+  The language used to describe and define the content of a Web page
+
+  Cascading Style Sheets (CSS)
+  Used to describe the appearance of Web content
+
+  JavaScript (JS)
+  The programming language used to build advanced Web sites and applications
+
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+Tables
+
+Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+  
+    
+      Name
+      Upvotes
+      Downvotes
+    
+  
+  
+    
+      Totals
+      21
+      23
+    
+  
+  
+    
+      Alice
+      10
+      11
+    
+    
+      Bob
+      4
+      3
+    
+    
+      Charlie
+      7
+      9
+    
+  
+
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+
+
+Want to see something else added? Open an issue.
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2014-01-01-example-content.html</link>
+
+            <pubDate>Wed, 01 Jan 2014 00:00:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/whats-jekyll</guid>
+            <title>What's Jekyll?</title>
+            <description>
+                Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From the project’s readme:
+
+
+  Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.
+
+
+It’s an immensely useful tool and one we encourage you to use here with Lanyon.
+
+Find out more by visiting the project on GitHub.
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2013-12-31-whats-jekyll.html</link>
+
+            <pubDate>Tue, 31 Dec 2013 00:00:00 -0500</pubDate>
+        </item>
+        
+        <item>
+            <guid>http://multinerd.github.io/blog/articles/csharp</guid>
+            <title>C# BlogPost</title>
+            <description>
+                Jekyll also offers powerful support for code snippets:
+
+
+            </description>
+            <link>http://multinerd.github.io/blog/articles/2011-05-20-csharp.html</link>
+
+            <pubDate>Fri, 20 May 2011 00:00:00 -0400</pubDate>
+        </item>
+        
+    </channel>
+</rss>
+

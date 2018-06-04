@@ -1,0 +1,16 @@
+{ 
+  "next": "/blog/api/getposts-3.json",
+  "pages": [
+    {
+      "title": "Swift Blogpost",
+      "link": "/blog/articles/2015-05-20-swift.html",
+      "photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+    },
+    {
+      "title": "Introducing Lanyon",
+      "link": "/blog/articles/2014-01-02-introducing-lanyon.html",
+      "photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+    }
+  ],
+  "prev": "/blog/api/getposts-1.json"
+}

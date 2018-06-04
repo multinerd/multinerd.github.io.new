@@ -1,0 +1,16 @@
+{ 
+  "next": "/blog/api/getposts-4.json",
+  "pages": [
+    {
+      "title": "Example content",
+      "link": "/blog/articles/2014-01-01-example-content.html",
+      "photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+    },
+    {
+      "title": "What's Jekyll?",
+      "link": "/blog/articles/2013-12-31-whats-jekyll.html",
+      "photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+    }
+  ],
+  "prev": "/blog/api/getposts-2.json"
+}
