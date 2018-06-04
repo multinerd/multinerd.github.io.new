@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+	<!--head-->
+{% include _head.html %}
+	<!--head-->
+
+	<!--body-->
+	<body id="topOfPage" class="black-skin">
+
+		<!--content-->
+{{ content }}
+		<!--content-->
+
+		<!--scrollToTop-->
+{% include utilities/scrollToTop.html %}
+		<!--/scrollToTop-->
+
+		{% unless page.url == '/repository/' or page.permalink == '/404.html' %}
+		<!--footer-->
+{% include footer.html %}
+		<!--/footer-->
+		{% endunless %}
+
+		<!--scripts-->
+{% include scripts.html %}
+		<!--/scripts-->
+
+	</body>
+	<!--body-->
+
+</html>

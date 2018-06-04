@@ -1,14 +1,34 @@
 ---
-layout: blog
+layout: default
 title: Blog
+tagline: Do Shit
 pagination:
  enabled: true
 ---
 
-<main>
+
+{% contentfor intro %}
+<div class="streak streak-md streak-photo blog-streak-quote-1">
+	<div class="mask flex-center white-text rgba-black-strong">
+		<div class="smooth-scroll mx-4 py-4">
+			<h1 class="text-center white-text pb-3"> <strong>MIKE'S</strong> BLOG</h1>
+			<p class="grey-text text-center mb-4 text-uppercase spacing">Welcome to my blog.</p>
+			<div class="row flex-center">
+				<div class="col-md-10 col-xl-5">
+					<p class="grey-text text-center">
+						<em>"Hello, I'm Michael Hedaitulla. I am a self taught developer and I love absorbing information."</em>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endcontentfor %}
+
+
+
 
 	<section>
-		<div class="container-fluid grey lighten-4">
 			<hr class="my-5">
 			<div class="container">
 
@@ -82,15 +102,11 @@ pagination:
 				<!--Blog-->
 
 			</div>
-
-		</div>
-
 	</section>
 	<!--Blog section-->
 
 	{% include blog/footer.html %}
 
-</main>
 
 
 

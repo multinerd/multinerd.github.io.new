@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section>
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-12">
+				<div class="page-header">
+					<!--Title-->
+					<h2 class="title"><strong>{{ page.title }}</strong></h2>
+
+					<!--Description-->
+					{% if page.tagline %}<p class="description">{{ page.tagline }}</p>{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				{{ content }}
+			</div>
+		</div>
+	</div>
+</section>

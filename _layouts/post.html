@@ -1,8 +1,28 @@
 ---
-layout: blog
+layout: default
 ---
 
-<main>
+{% contentfor intro %}
+<div class="streak streak-md streak-photo blog-streak-quote-1" style="background: url('{{page.photo}}') no-repeat center center; object-fit: cover;">
+	<div class="mask flex-center white-text rgba-black-strong">
+		<div class="smooth-scroll mx-4 py-4">
+			<h1 class="text-center white-text pb-3"> {{page.title}}</h1>
+			<div class="row flex-center">
+				<div class="col-md-10 col-xl-5">
+					<p class="grey-text text-center">
+						<em>
+							"{{page.excerpt | strip_html}}"
+						</em>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endcontentfor %}
+
+
+
 	<!--Blog section-->
 	<section>
 		<div class="container-fluid grey lighten-4">
@@ -23,6 +43,48 @@ layout: blog
 
 								<!--Grid column-->
 								<div class="col-md-12">
+
+
+									<div class="date">
+										<span>{{ page.date | date_to_long_string }}</span>
+									</div>
+									<div class="content">
+										{{ content }}
+									</div>
+
+									{% unless page.categories == empty %}
+									<ul class="tag_box inline">
+										<li><i class="glyphicon glyphicon-open"></i></li>
+										{% assign categories_list = page.categories %}
+										{% include JB/categories_list %}
+									</ul>
+									{% endunless %}
+
+									{% unless page.tags == empty %}
+									<ul class="tag_box inline">
+										<li><i class="glyphicon glyphicon-tags"></i></li>
+										{% assign tags_list = page.tags %}
+										{% include JB/tags_list %}
+									</ul>
+									{% endunless %}
+
+									<hr>
+									<ul class="pagination">
+										{% if page.previous %}
+										<li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+										{% else %}
+										<li class="prev disabled"><a>&larr; Previous</a></li>
+										{% endif %}
+										<li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+										{% if page.next %}
+										<li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+										{% else %}
+										<li class="next disabled"><a>Next &rarr;</a>
+											{% endif %}
+									</ul>
+									<hr>
+
+
 
 									{% include blog/post.html myPost=page isPost=true %}
 
@@ -76,9 +138,10 @@ layout: blog
 			</div>
 
 
+
+		</div>
 	</section>
 	<!--Blog section-->
 
 	{% include blog/footer.html %}
 
-</main>

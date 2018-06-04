@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-
+{% include JB/setup %}
 	<!--head-->
 {% include _head.html %}
 	<!--head-->
@@ -8,19 +8,27 @@
 	<!--body-->
 	<body id="topOfPage" class="black-skin">
 
-		<!--content-->
-{{ content }}
-		<!--content-->
+		<header>
+			<!--intro-->
+			{% contentblock intro %}
+			<!--/intro-->
+		</header>
 
-		<!--scrollToTop-->
-{% include utilities/scrollToTop.html %}
-		<!--/scrollToTop-->
+		<!--navigation-->
+		{% include navigation.html %}
+		<!--/navigation-->
 
-		{% unless page.url == '/repository/' or page.permalink == '/404.html' %}
+		<main class="grey lighten-4">
+			<!--content-->
+	{{ content }}
+			<!--content-->
+		</main>
+
+
+
 		<!--footer-->
 {% include footer.html %}
 		<!--/footer-->
-		{% endunless %}
 
 		<!--scripts-->
 {% include scripts.html %}

@@ -16,10 +16,6 @@ $accent-color: #283593;
 // Main Site
 body {
   position: relative;
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%
 }
 
 //Navigation
@@ -47,7 +43,7 @@ body {
 //Intros
 html,
 body,
-header,
+//header,
 .view {
   height: 100%;
 }
@@ -55,7 +51,7 @@ header,
 @media (max-width: 740px) {
   html,
   body,
-  header,
+  //header,
   .view {
     height: 815px;
   }
@@ -64,7 +60,7 @@ header,
 @media (min-width: 800px) and (max-width: 850px) {
   html,
   body,
-  header,
+  //header,
   .view {
     height: 600px;
   }
