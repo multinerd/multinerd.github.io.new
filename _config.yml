@@ -3,6 +3,7 @@
 lang: en
 title: Multinerd
 description: 'Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.'
+keywords: Software Developement
 logo: "/img/icons/favicon-32x32.png"
 version: 1.0.0
 
@@ -11,6 +12,7 @@ version: 1.0.0
 # Site configurations
 url: "http://multinerd.github.io"
 baseurl: ""
+production_url: "http://multinerd.github.io" # Ideally, this would be your site.url + site.base_url
 permalink: "/blog/articles/:year-:month-:day-:title.html"
 plugins:
   - jekyll-archives
@@ -27,6 +29,14 @@ exclude:
   - /script
 
 
+blog:
+  path:
+    feed:
+      atom: /blog/feed/atom.xml
+      rss: /blog/feed/rss.xml
+
+
+
 ############################################################
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
@@ -40,7 +50,7 @@ pagination:
   debug: true
   title: ':title - Page :num'
   permalink: '/index:num.html'
-  per_page: 5   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 2   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
   limit: 0      # Limit how many paginated pages to create (default: 0, means all)
   sort_field: 'date'
   sort_reverse: true
@@ -62,3 +72,11 @@ jekyll-archives:
     day: '/blog/:year/:month/:day/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
+
+
+author :
+  name : Michael Hedaitulla
+  email : m.hedaitulla@live.com
+  github : multinerd
+#  twitter : username
+#  feedburner : feedname
