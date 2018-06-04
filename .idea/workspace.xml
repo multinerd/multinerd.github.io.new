@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63d870e6-b004-45d6-a786-c9e25c51791c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2011-05-20-csharp.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2011-05-20-csharp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2013-12-31-whats-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2013-12-31-whats-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2014-01-01-example-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2014-01-01-example-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2014-01-02-introducing-lanyon.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2014-01-02-introducing-lanyon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2015-05-20-swift.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2015-05-20-swift.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2017-05-20-web.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2017-05-20-web.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/articles/2018-05-20-test-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/articles/2018-05-20-test-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/feeds/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/feeds/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/feeds/rss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/feeds/rss.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index3.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index4.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index4.html" afterDir="false" />
-    </list>
+    <list default="true" id="63d870e6-b004-45d6-a786-c9e25c51791c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,12 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cibuild" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cibuild" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/cibuild">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -345,12 +333,12 @@
       <workItem from="1527955235075" duration="44965000" />
       <workItem from="1528123247190" duration="772000" />
       <workItem from="1528125190000" duration="15234000" />
-      <workItem from="1528141465796" duration="5169000" />
+      <workItem from="1528141465796" duration="5401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277828000" />
+    <option name="totallyTimeSpent" value="278060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -654,13 +642,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/cibuild">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/cibuild">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
