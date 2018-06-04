@@ -1,15 +1,64 @@
-# Site Settings
+############################################################
+# Site Info
 lang: en
 title: Multinerd
-author: multinerd
-email: m.hedaitulla@live.com
-github_username:  multinerd
-description: > # this means to ignore newlines until "url"
-  Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.
+description: 'Michael Hedaitulla, Full-Stack Web Developer and Conceptor at Lyon, France. I design and develop innovative websites with modern technologies and languages.'
+logo: "/img/icons/favicon-32x32.png"
+version: 1.0.0
+
+
+############################################################
+# Site configurations
 url: "http://multinerd.github.io"
 baseurl: ""
-permalink: /blog/:title/
-logo: "/img/icons/favicon-32x32.png"
+permalink: "/blog/articles/:year-:month-:day-:title.html"
+plugins:
+  - jekyll-archives
+  - jekyll-contentblocks
+  - jekyll-paginate-v2
+include:
+  - _pages
+exclude:
+  - .jekyll-metadata
+  - notes.md
+  - serve.command
+  - Gemfile
+  - Gemfile.lock
+  - /script
 
-include: ['_pages']  # [DIR, FILE, ...]
-exclude: [.jekyll-metadata, notes.md, serve.command]
+
+############################################################
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+
+############################################################
+# Pagination Settings
+pagination:
+  enabled: true
+  debug: true
+  title: ':title - Page :num'
+  permalink: '/index:num.html'
+  per_page: 5   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  limit: 0      # Limit how many paginated pages to create (default: 0, means all)
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 10
+    after: 10
+#  collection: 'posts'  # The default document collection to paginate if nothing is specified ('posts' is default)
+#  category: 'posts'    # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+#  tag: ''              # Optional, the default tag to use, omit to disable
+
+
+############################################################
+jekyll-archives:
+  enabled: ['all']
+  layout: 'blank'
+  permalinks:
+    year: '/blog/:year/'
+    month: '/blog/:year/:month/'
+    day: '/blog/:year/:month/:day/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'

@@ -1,0 +1,20 @@
+{
+"pages": [
+
+{
+"title": "What's Jekyll?",
+"link": "/blog/articles/2013-12-31-whats-jekyll.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+}
+,
+{
+"title": "C# BlogPost",
+"link": "/blog/articles/2011-05-20-csharp.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(29).jpg"
+}
+]
+
+
+,"prev": "/blog/api/feed-1.json"
+
+}

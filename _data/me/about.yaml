@@ -1,0 +1,11 @@
+- section: blogSidebar
+  author: Michael Hedaitulla
+  description: I am a self taught developer and I love absorbing information.
+  photo: /resources/img/me/blogSidebarPlaceholder.jpg
+
+
+
+- section: blogFooter
+  author: Michael Hedaitulla
+  description: Sed ut in perspiciatis unde omnis iste natus error sit on i tatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
+  photo: /resources/img/me/blogFooterPlaceholder.jpg

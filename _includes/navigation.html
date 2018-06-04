@@ -1,24 +1,20 @@
-{% if page.url contains '/blog' %}
 			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-	{% else %}
-			<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-{% endif %}
-				<!--navbarBrand -->
+				<!--navbarBrand-->
 				<a class="navbar-brand" href="/">
 					<img src="/resources/icons/favicon-194x194.png" height="30" class="d-inline-block align-top" alt=""> Multinerd
 				</a>
 
-				<!--collapseButton -->
+				<!--collapseButton-->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<!--collapsibleContent -->
+				<!--collapsibleContent-->
 				<div class="collapse navbar-collapse" id="navbarToggle">
 
-					<!-- links -->
+					<!--links-->
 					<ul class="navbar-nav mr-auto"> {% for nav in site.data.navigation %} {% if nav.items %}
-					    <!-- menu: {{ nav.title }} -->
+					    <!--menu: {{ nav.title }}-->
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" id="navbar{{ nav.title | replace: ' ', '' }}MenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								{% if nav.icon %}
@@ -27,7 +23,7 @@
 
 							<div class="dropdown-menu dropdown-primary" aria-labelledby="navbar{{ nav.title | replace: ' ', '' }}MenuLink">
 								{% for item in nav.items %}
-							    <!-- menu: {{ item.title }} -->
+							    <!--menu: {{ item.title }}-->
 								<a class="dropdown-item" href="{{ item.link }}"> {% if item.icon %}
 									<i class="fas {{item.icon}}" aria-hidden="true"></i> {% endif %} {{ item.title }} {% if item.url == page.url %}
 									<span class="sr-only">(current)</span> {% endif %}
@@ -35,7 +31,7 @@
 							</div>
 						</li> {% else %}
 
-					    <!-- link: {{ nav.title }} -->
+					    <!--link: {{ nav.title }}-->
 						<li class="nav-item{% if nav.link == page.url %} active{% endif %}">
 							<a class="nav-link" href="{{ nav.link }}"> {% if nav.icon %}
 								<i class="fas {{nav.icon}}" aria-hidden="true"></i> {% endif %}{{ nav.title }} {% if nav.url == page.url %}
@@ -43,7 +39,7 @@
 						</li> {% endif %} {% endfor %}
 					</ul>
 
-					<!-- search -->
+					<!--search-->
 					<form class="form-inline">
 						<div class="md-form my-0">
 							<i class="fas fa-search"></i>

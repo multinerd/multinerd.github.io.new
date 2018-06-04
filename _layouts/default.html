@@ -7,7 +7,7 @@
 
 	<!--body-->
 	<body id="topOfPage" class="black-skin">
-	{{page.url}}
+
 		<!--content-->
 {{ content }}
 		<!--content-->
@@ -16,7 +16,7 @@
 {% include utilities/scrollToTop.html %}
 		<!--/scrollToTop-->
 
-		{% unless page.url == '/repository/' %}
+		{% unless page.url == '/repository/' or page.permalink == '/404.html' %}
 		<!--footer-->
 {% include footer.html %}
 		<!--/footer-->

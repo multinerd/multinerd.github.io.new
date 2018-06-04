@@ -1,8 +1,3 @@
----
-layout: default
-resFile: blog
----
-
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
@@ -13,6 +8,20 @@ resFile: blog
 	<!--body-->
 	<body id="topOfPage" class="black-skin">
 
+			<!--navigation-->
+			{% include navigation.html %}
+			<!--/navigation-->
+			<!--intro-->
+			<div class="streak streak-md streak-photo blog-streak-quote-1">
+				<div class="mask flex-center white-text rgba-black-strong">
+					<div class="smooth-scroll mx-4 py-4">
+						<h1 class="text-center white-text pb-3"> <strong>MIKE'S</strong> BLOG</h1>
+						<p class="grey-text text-center mb-4 text-uppercase spacing">Welcome to my blog.</p>
+					</div>
+				</div>
+			</div>
+			<!--/intro-->
+
 		<!--content-->
 {{ content }}
 		<!--content-->
@@ -21,12 +30,9 @@ resFile: blog
 {% include utilities/scrollToTop.html %}
 		<!--/scrollToTop-->
 
-
-		{% unless page.url == '/repository/' %}
 		<!--footer-->
 {% include footer.html %}
 		<!--/footer-->
-		{% endunless %}
 
 		<!--scripts-->
 {% include scripts.html %}

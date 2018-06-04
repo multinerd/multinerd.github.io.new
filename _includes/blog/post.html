@@ -1,0 +1,244 @@
+{% assign myPost = include.myPost %}
+{% assign isPost = include.isPost %}
+
+{% comment %}
+Blog Components:
+
+---
+
+title:  "C# BlogPost"
+photo: http://mdbootstrap.com/img/Photos/Slides/img%20(29).jpg
+date:   2011-05-20 00:10:47
+category: 'C#'
+categories: C# Software Desktop
+tags: ['async', 'repository']
+published: true
+---
+
+
+To Add:
+Share
+Time To Read
+Tags
+Category: overlay over image
+
+Mimic https://www.mockplus.com/blog
+
+{% endcomment %}
+
+
+<!--post-->
+<div class="card">
+
+	<!-- postImage -->
+	<div class="view overlay">
+		<img class="card-img-top" src="{{ myPost.photo }}" alt="{{ myPost.title | escape }} Photo">
+		{% if isPost == true %}
+		<a><div class="mask rgba-white-slight"></div></a>
+		{% else %}
+		<a href="{{ post.url  }}">
+			<div class="mask flex-center rgba-white-slight">
+			<!--<p class="white-text">{{ post.title }}</p>-->
+		</div>
+		</a>
+		{% endif %}
+	</div>
+
+	<!-- postContent -->
+	<div class="card-body">
+
+		<!-- title -->
+		<h4 class="card-title">{{ myPost.title | escape }}</h4>
+
+		{% if myPost.date %}
+		<span class="small indigo-text"><i class="fas fa-clock pr-1"></i>{{ myPost.date | date: "%B %-d, %Y" }}</span>
+		{% endif %}
+
+
+		{% if myPost.tags %} |
+		{% for tag in myPost.tags %}
+		<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="badge indigo lighten-1 font-weight-light">
+			<i class="fal fa-hashtag pr-1"></i>{{ tag }}
+		</a>
+		{% endfor %}
+		{% endif %}
+		<hr class="hr-dark">
+
+		<!-- details -->
+		<p class="card-text">{% if isPost == true %} {{ content }} {% else %} {{ myPost.excerpt }} {% endif %}</p>
+
+
+
+		{% if myPost.categories %}
+		<!--tags-->
+		{% for category in myPost.categories %}
+		<a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}" class="badge pink lighten-1 font-weight-light">
+			{{ category }}
+		</a>
+		{% endfor %}
+		{% endif %}
+
+
+		{% if isPost == true %}
+		<!--share-->
+		<p class="text-right mb-0 text-uppercase dark-grey-text">
+			<a class="btn btn-elegant btn-sm btn-rounded" data-toggle="modal" data-target="#modalSocial">share
+				<i class="fas fa-share-alt pl-1" aria-hidden="true"></i>
+			</a>
+		</p>
+		{% else %}
+		<!--readMore-->
+		<p class="text-right mb-0 text-uppercase dark-grey-text">
+			<a class="btn btn-elegant btn-sm btn-rounded" href="{{ post.url  }}">read more
+				<i class="fas fa-arrow-right pl-1" aria-hidden="true"></i>
+			</a>
+		</p>
+		{% endif %}
+
+
+
+
+	</div>
+
+
+	<!-- postFooter -->
+	<div class="rounded-bottom indigo darken-3 text-center pt-3">
+
+		<!--<div class="d-flex align-items-start flex-column">-->
+			<!--<div class="mb-auto p-2">Tags-->
+
+				<!--<div class="flex-wrap bd-highlight">-->
+					<!--&lt;!&ndash;<div class="p-2 bd-highlight col-example">Flex item</div>&ndash;&gt;-->
+					<!--{% if myPost.categories %}-->
+					<!--&lt;!&ndash;categories&ndash;&gt;-->
+					<!--{% for category in myPost.categories %}-->
+					<!--<span class="p-2 bd-highlight col-example badge red">{{ category }}</span>-->
+					<!--{% endfor %}-->
+					<!--{% endif %}-->
+				<!--</div>-->
+
+
+			<!--</div>-->
+			<!--&lt;!&ndash;<div class="p-2">Categories</div>&ndash;&gt;-->
+		<!--</div>-->
+
+
+
+
+		<!--<div class="d-flex flex-wrap bd-highlight example-parent">-->
+			<!--<div class="p-2 bd-highlight col-example">Flex item</div>-->
+			<!--{% if myPost.categories %}-->
+			<!--&lt;!&ndash;categories&ndash;&gt;-->
+			<!--{% for category in myPost.categories %}-->
+			<!--<span class="p-2 bd-highlight col-example badge red">{{ category }}</span>-->
+			<!--{% endfor %}-->
+			<!--{% endif %}-->
+		<!--</div>-->
+
+
+
+
+		<ul class="list-unstyled list-inline font-small">
+			{% if myPost.date %}
+			<li class="list-inline-item px-1 white-text"><i class="fas fa-clock pr-1"></i>{{ myPost.date | date: "%B %-d, %Y" }}</li>
+			{% endif %}
+		</ul>
+	</div>
+
+
+</div>
+<!--/post-->
+
+
+
+<!--Modal: modalSocial-->
+<div class="modal fade" id="modalSocial" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog cascading-modal" role="document">
+
+		<!--Content-->
+		<div class="modal-content">
+
+			<!--Header-->
+			<div class="modal-header primary-color white-text">
+				<h4 class="title"><i class="fa fa-users"></i> Spread the word!</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			</div>
+
+			<!--Body-->
+			<div class="modal-body mb-0 text-center">
+
+
+				<!--Facebook-->
+				<a type="button" class="btn-floating btn-fb" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">
+					<i class="fab fa-facebook"></i>
+				</a>
+
+				<!--Twitter-->
+				<a type="button" class="btn-floating btn-tw" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
+					<i class="fab fa-twitter"></i>
+				</a>
+
+				<!--Google +-->
+				<a type="button" class="btn-floating btn-gplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">
+					<i class="fab fa-google-plus"></i>
+				</a>
+
+				<!--Linkedin-->
+				<a type="button" class="btn-floating btn-li" href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.title }}&source=<{{ site.url }}" rel="nofollow" target="_blank" title="Share on LinkedIn">
+					<i class="fab fa-linkedin"></i>
+				</a>
+
+				<!--Instagram-->
+				<a type="button" class="btn-floating btn-ins" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&description={{ page.title }}">
+					<i class="fab fa-instagram"></i>
+				</a>
+
+				<!--Pinterest-->
+				<a type="button" class="btn-floating btn-pin" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&description={{ page.title }}">
+					<i class="fab fa-pinterest"></i>
+				</a>
+
+				<!--Reddit-->
+				<a type="button" class="btn-floating btn-blue" href="http://www.reddit.com/submit?url=<URL>&title=<TITLE>">
+					<i class="fab fa-reddit-alien"></i>
+				</a>
+
+
+
+
+				<!--Youtube-->
+				<a type="button" class="btn-floating btn-yt">
+					<i class="fab fa-youtube"></i>
+				</a>
+
+				<!--Dribbble-->
+				<a type="button" class="btn-floating btn-dribbble">
+					<i class="fab fa-dribbble"></i>
+				</a>
+
+				<!--Vkontakte-->
+				<a type="button" class="btn-floating btn-vk">
+					<i class="fab fa-vk"></i>
+				</a>
+
+
+
+
+				<!--Comments-->
+				<a type="button" class="btn-floating btn-comm">
+					<i class="fa fa-comments"></i>
+				</a>
+
+				<!--Email-->
+				<a type="button" class="btn-floating btn-email" href="mailto:{email_address}?subject={title}&body={text}">
+					<i class="fa fa-envelope"></i>
+				</a>
+
+			</div>
+
+		</div>
+		<!--/.Content-->
+
+	</div>
+</div>
+<!--Modal: modalSocial-->

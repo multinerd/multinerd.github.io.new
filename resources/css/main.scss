@@ -1,20 +1,25 @@
 //---
 //# Front matter comment to ensure Jekyll properly reads file.
 //---
-@import "variables";
 
-// Colors
-.accent-color {
-  background-color: $accent-color !important;
-}
+// ** Variables ** //
+$dark-color: #212121;
+$light-color: #fafafa;
 
-.accent-text {
-  color: $accent-color !important;
-}
+//$primary-color: #ff4081;
+//$secondary-color: #40c3ff;
+$accent-color: #283593;
+//$usaf-color: #00308f;
+
+
 
 // Main Site
 body {
   position: relative;
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%
 }
 
 //Navigation
@@ -39,3 +44,61 @@ body {
   }
 }
 
+//Intros
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 815px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+.home-intro {
+  background-size: cover;
+  background: url('/resources/img/home/intro.jpg') no-repeat center center;
+}
+
+.repo-intro {
+  background-size: cover;
+  background: url('/resources/img/repository/intro.jpg') no-repeat center center;
+}
+
+.blog-intro {
+  background-size: cover;
+  background: url('https://mdbootstrap.com/img/Photos/Others/nature1.jpg') no-repeat center center;
+}
+
+.mask.rgba-gradient-1 {
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(255, 48, 48, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(255, 48, 48, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(255, 48, 48, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(255, 48, 48, 0.7) 100%);
+}
+
+//Home
+.home-streak-quote-1 {
+  background: url('/resources/img/home/streak-1.jpg') no-repeat center center;
+}
+
+//Blog
+
+.blog-streak-quote-1 {
+  background: url('https://mdbootstrap.com/img/Photos/Others/nature1.jpg') no-repeat center center;
+}

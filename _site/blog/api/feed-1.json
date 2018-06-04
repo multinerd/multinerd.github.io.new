@@ -1,0 +1,38 @@
+{
+"pages": [
+
+{
+"title": "Welcome to Jekyll4!",
+"link": "/blog/articles/2018-05-20-test-page.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(146).jpg"
+}
+,
+{
+"title": "Web Blogpost",
+"link": "/blog/articles/2017-05-20-web.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(144).jpg"
+}
+,
+{
+"title": "Swift Blogpost",
+"link": "/blog/articles/2015-05-20-swift.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+}
+,
+{
+"title": "Introducing Lanyon",
+"link": "/blog/articles/2014-01-02-introducing-lanyon.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+}
+,
+{
+"title": "Example content",
+"link": "/blog/articles/2014-01-01-example-content.html",
+"photo": "http://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg"
+}
+]
+
+,"next": "/blog/api/feed-2.json"
+
+
+}

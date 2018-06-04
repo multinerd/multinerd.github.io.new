@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAEA,WAAY;EACV,eAAe,EAAE,KAAK;EACtB,UAAU,EAAE,kEAAkE;EAC9E,MAAM,EAAE,KAAK",
-"sources": ["repository.scss"],
-"names": [],
-"file": "repository.css"
-}
